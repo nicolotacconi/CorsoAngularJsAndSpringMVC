@@ -26,11 +26,16 @@
 
 <!-- INCLUDO I SERVIZI E I CONTROLLER JAVASCRIPT -->
 <script type="text/javascript"
+	src="${pageContext.request.contextPath}/resources/js/app.js"></script>
+<script type="text/javascript"
 	src="${pageContext.request.contextPath}/resources/js/services/HelloWorldService.js"></script>
+<script type="text/javascript"
+	src="${pageContext.request.contextPath}/resources/js/services/PrimoFormService.js"></script>
 <script type="text/javascript"
 	src="${pageContext.request.contextPath}/resources/js/controllers/HelloWorldController.js"></script>
 <script type="text/javascript"
-	src="${pageContext.request.contextPath}/resources/js/app.js"></script>
+	src="${pageContext.request.contextPath}/resources/js/controllers/PrimoFormController.js"></script>
+
 
 
 <script type="text/javascript">

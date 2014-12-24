@@ -1,4 +1,4 @@
-angular.module('intranetAngular.controllers', [])
+angular.module('intranetAngular.controllers')
 
 .controller('HelloWorldController',
 		[ '$scope', 'helloWorldService', function($scope, helloWorldService) {
