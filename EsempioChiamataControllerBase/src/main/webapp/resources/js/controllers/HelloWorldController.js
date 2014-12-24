@@ -3,7 +3,9 @@ angular.module('intranetAngular.controllers', [])
 .controller('HelloWorldController',
 		[ '$scope', 'helloWorldService', function($scope, helloWorldService) {
 
-			$scope.message 	;
+			$scope.message;
+
+			$scope.messageObj;
 
 			$scope.setMessage = function() {
 
@@ -13,4 +15,15 @@ angular.module('intranetAngular.controllers', [])
 					$scope.message = "ERRORE";
 				});
 			}
+
+			$scope.setMessageObj = function() {
+
+				helloWorldService.getMessageObj().success(function(messageObj) {
+					$scope.messageObj = messageObj;
+				}).error(function(error) {
+					$scope.message = "ERRORE";
+				});
+			}
+			
+
 		} ]);

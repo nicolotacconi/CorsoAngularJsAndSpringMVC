@@ -1,1 +1,0 @@
-ciao sono la list {{view.id}}

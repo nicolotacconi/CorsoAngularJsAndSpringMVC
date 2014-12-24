@@ -1,1 +1,0 @@
-ciao sono la view {{view.id}}
