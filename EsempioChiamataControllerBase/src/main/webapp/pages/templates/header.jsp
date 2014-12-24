@@ -5,6 +5,7 @@
 
 <spring:url value="/webjars/" var="webjarsPath" />
 
+<!-- INCLUDO LE LIBRERIE BASE DI ANGULAR -->
 <script src="${webjarsPath}angularjs/1.2.16/angular.min.js"></script>
 <script
 	src="${webjarsPath}angularjs/1.2.16/i18n/angular-locale_it-it.js"></script>
@@ -12,6 +13,18 @@
 <script src="${webjarsPath}angularjs/1.2.16/angular-route.min.js"></script>
 <script src="${webjarsPath}angularjs/1.2.16/angular-animate.min.js"></script>
 
+<!-- INCLUDO LE LIBRERIE BASE DI BOOTSTRAP -->
+<link
+	href="${pageContext.request.contextPath}/webjars/bootstrap/2.3.2/css/bootstrap.min.css"
+	rel="stylesheet">
+<script type="text/javascript"
+	src="${pageContext.request.contextPath}/webjars/angular-ui-bootstrap/0.11.0/ui-bootstrap.min.js"
+	charset="UTF-8"></script>
+<script type="text/javascript"
+	src="${pageContext.request.contextPath}/webjars/angular-ui-bootstrap/0.11.0/ui-bootstrap-tpls.min.js"
+	charset="UTF-8"></script>
+
+<!-- INCLUDO I SERVIZI E I CONTROLLER JAVASCRIPT -->
 <script type="text/javascript"
 	src="${pageContext.request.contextPath}/resources/js/services/HelloWorldService.js"></script>
 <script type="text/javascript"

@@ -14,14 +14,14 @@
 		<tr>
 
 			<td>{{message}}</td>
-			<td><button type="button" ng-click="setMessage()">Set
+			<td><button class="btn" type="button" ng-click="setMessage()">Set
 					Message</button></td>
 		</tr>
-		
+
 		<tr>
 
 			<td>{{messageObj.messaggioDiBenvenuto}}</td>
-			<td><button type="button" ng-click="setMessageObj()">Set
+			<td><button class="btn" type="button" ng-click="setMessageObj()">
 					Message OBJ</button></td>
 		</tr>
 	</table>

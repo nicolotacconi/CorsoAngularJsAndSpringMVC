@@ -21,6 +21,7 @@
 		<servlet.version>2.5</servlet.version>
 		<jackson.version>2.2.3</jackson.version>
 		<bootstrap.version>2.3.2</bootstrap.version>
+		<webjars-angular-ui-bootstrap.version>0.11.0</webjars-angular-ui-bootstrap.version>
 	</properties>
 
 	<dependencies>
@@ -72,6 +73,11 @@
 			<groupId>org.webjars</groupId>
 			<artifactId>bootstrap</artifactId>
 			<version>${bootstrap.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.webjars</groupId>
+			<artifactId>angular-ui-bootstrap</artifactId>
+			<version>${webjars-angular-ui-bootstrap.version}</version>
 		</dependency>
 		<dependency>
 			<groupId>org.webjars</groupId>
