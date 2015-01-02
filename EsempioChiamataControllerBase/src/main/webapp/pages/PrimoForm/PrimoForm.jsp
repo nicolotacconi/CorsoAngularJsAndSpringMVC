@@ -18,12 +18,12 @@
 
 		<tr>
 			<td><label>Cognome:</label></td>
-			<td><input id="nome" type="text" ng-model="utente.cognome" /></td>
+			<td><input id="cognome" type="text" ng-model="utente.cognome" /></td>
 		</tr>
 
 		<tr>
 			<td><label>Eta':</label></td>
-			<td><input id="nome" type="text" ng-model="utente.eta" /></td>
+			<td><input id="eta" type="text" ng-model="utente.eta" /></td>
 		</tr>
 	</table>
 
