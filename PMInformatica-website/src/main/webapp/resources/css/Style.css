@@ -1,0 +1,93 @@
+.navbar-custom {
+	background-color: rgb(242, 148, 0);
+}
+
+.navbar .nav>li>a {
+	color: white;
+}
+
+.navbar .nav>.active>a,.navbar .nav>.active>a:hover,.navbar .nav>.active>a:focus
+	{
+	background-color: rgb(0, 178, 232) !important;
+	color: white !important;
+}
+
+.servizi-colonna-img {
+	width: 15%;
+	padding-right: 1cm;
+	padding-left: 1cm;
+	padding-bottom: 0.5cm;
+}
+
+.servizi-colonna-testo {
+	width: 35%;
+	text-align: justify;
+	padding-bottom: 0.5cm;
+}
+
+table {
+	table-layout: fixed;
+}
+
+input:focus,textarea:focus,.focus {
+	border: rgb(242, 148, 0);
+	color: #FCA800;
+}
+
+.login-button {
+	height: 30px;
+	width: 75px;
+	background-color: rgb(0, 178, 232) !important;
+	border-radius: 10px 10px 10px 10px;
+	color: #ffffff;
+	display: inline-block;
+	cursor: pointer;
+}
+
+.div-table {
+	display: table;
+	width: 100%;
+}
+
+.div-row {
+	display: table-row;
+	width: 100%;
+}
+
+.div-cell-img {
+	display: table-cell;
+	width: 10%;
+	text-align: left;
+}
+
+.div-cell-text {
+	display: table-cell;
+	width: 90%;
+	text-align: left;
+}
+
+html,body {
+	height: 100%;
+}
+
+div#container {
+	position: relative;
+	width: 100%;
+	height: auto !important;
+	height: 100%;
+	min-height: 100%;
+}
+
+div#content {
+	padding: 0 0 100px 0;
+	margin: 0 auto;
+}
+
+div#footer {
+	background-color: rgb(242, 148, 0);
+	bottom: 0;
+	height: 5%;
+	width: 80%;
+	position: absolute;
+	text-align: center;	
+}
