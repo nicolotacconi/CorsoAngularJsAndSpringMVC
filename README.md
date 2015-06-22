@@ -11,16 +11,20 @@ Questo progetto contiene alcune pagine base come per esempio: <br>
 ATTENZIONE!!! In questo progetto il codice js e' incorporato nelle pagine jsp
 
 ### Configurazioni
-Per provare il progetto e' necessario configurare tomcat
+Per provare il progetto e' necessario eseguire il jetty di Maven
 
 ## EsempioChiamataControllerBase
 Questo progetto contiene alcuni sempi di chiamata ad un controller MVC: <br>
 1. Chiamata ad un controller senza alcun parametro avente come riposta una Stringa (HelloWorldController)<br>
-2. Chiamata ad un controller senza alcun parametro avente come riposta un oggetto (HelloWorldController)<br>
+2. Chiamata ad un controller senza alcun parametro avente come riposta un oggetto (HelloWorldController) --> NON linkato nella pagina di welcome<br>
 3. Chiamata ad un controller avente un parametro di tipo oggetto (PrimoFormController)<br>
+4. Chiamata ad un controller senza alcun parametro avente come riposta una Stringa, la chiamata utilizza le promise (HelloWorldController)<br>
 
 ### Configurazioni
-Per provare il progetto e' necessario configurare tomcat
+Per provare il progetto e' necessario eseguire il jetty di Maven
+
+### Link
+http://localhost:8080/webAngular/pages/HelloWorld/Welcome.jsp
 
 ## myFirstApplication
 Questo progetto contiene un semplice esempio di HelloWorld chiamando un controller base.<br>
@@ -37,5 +41,5 @@ Questo progetto contiene un semplice esempio di sito web, in particolare ha degl
 2. utilizzo di bootstrap<br>
 
 ### Configurazioni
-Per provare il progetto e' necessario configurare tomcat
+Per provare il progetto e' necessario eseguire il jetty di Maven
 

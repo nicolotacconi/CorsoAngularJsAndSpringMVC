@@ -6,6 +6,8 @@ angular.module('intranetAngular.controllers')
 			$scope.message;
 
 			$scope.messageObj;
+			
+			$scope.messagePromise;
 
 			$scope.setMessage = function() {
 
@@ -22,6 +24,17 @@ angular.module('intranetAngular.controllers')
 					$scope.messageObj = messageObj;
 				}).error(function(error) {
 					$scope.message = "ERRORE";
+				});
+			}
+			
+			$scope.setMessagePromise = function() {
+
+				var promise = helloWorldService.getMessage();
+								
+				promise.success(function(messagePromise) {
+					$scope.messagePromise = messagePromise;
+				}).error(function(error) {
+					$scope.messagePromise = "ERRORE";
 				});
 			}
 			

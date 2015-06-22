@@ -24,6 +24,14 @@
 			<td><button class="btn" type="button" ng-click="setMessageObj()">
 					Message OBJ</button></td>
 		</tr>
+		
+		
+		<tr>
+
+			<td>{{messagePromise}}</td>
+			<td><button class="btn" type="button" ng-click="setMessagePromise()">
+					Message Promise</button></td>
+		</tr>
 	</table>
 
 </body>
