@@ -1,6 +1,6 @@
 angular.module('intranetAngular.services')
 
-.service('primoFormService', ['$http', function($http) {
+.factory('primoFormService', ['$http', function($http) {
 
 	return {
 		registraUtente: function(utente) {
