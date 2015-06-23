@@ -13,7 +13,7 @@
 
 		<tr>
 
-			<td>{{message}}</td>
+			<td><strong ng-bind="message"></strong></td>
 			<td><button class="btn" type="button" ng-click="setMessage()">Set
 					Message</button></td>
 		</tr>
@@ -28,7 +28,7 @@
 		
 		<tr>
 
-			<td>{{messagePromise}}</td>
+			<td><strong ng-bind="messagePromise"></td>
 			<td><button class="btn" type="button" ng-click="setMessagePromise()">
 					Message Promise</button></td>
 		</tr>
