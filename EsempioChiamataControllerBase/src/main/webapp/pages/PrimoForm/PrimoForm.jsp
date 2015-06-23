@@ -14,11 +14,15 @@
 		<tr>
 			<td><label>Nome:</label></td>
 			<td><input id="nome" type="text" ng-model="utente.nome" /></td>
+			<td><output>campo in uppercase: {{utente.nome |
+					uppercase}}</output></td>
 		</tr>
 
 		<tr>
 			<td><label>Cognome:</label></td>
 			<td><input id="cognome" type="text" ng-model="utente.cognome" /></td>
+			<td><output>campo in uppercase: {{utente.cognome |
+					uppercase}}</output></td>
 		</tr>
 
 		<tr>
