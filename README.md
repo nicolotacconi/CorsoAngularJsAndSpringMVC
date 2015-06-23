@@ -24,7 +24,8 @@ Questo progetto contiene alcuni sempi di chiamata ad un controller MVC: <br>
 Per provare il progetto e' necessario eseguire il jetty di Maven
 
 ### Link
-http://localhost:8080/webAngular/pages/HelloWorld/Welcome.jsp
+Esempio con HelloWorld: http://localhost:8080/webAngular/pages/HelloWorld/Welcome.jsp
+Esempio primo form: http://localhost:8080/webAngular/pages/PrimoForm/PrimoForm.jsp
 
 ## myFirstApplication
 Questo progetto contiene un semplice esempio di HelloWorld chiamando un controller base.<br>
