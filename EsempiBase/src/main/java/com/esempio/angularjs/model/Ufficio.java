@@ -10,6 +10,16 @@ public class Ufficio {
 
 	protected String area;
 
+	protected boolean active = false;
+
+	public boolean isActive() {
+		return active;
+	}
+
+	public void setActive(boolean active) {
+		this.active = active;
+	}
+
 	public Integer getCodiceUfficio() {
 		return codiceUfficio;
 	}

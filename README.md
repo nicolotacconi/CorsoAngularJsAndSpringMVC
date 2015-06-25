@@ -22,7 +22,9 @@ Questo progetto contiene alcuni esempi base di angularJs e Spring MVC utilizzand
 5. Esempio del costrutto base ng-repeat (CostruttiBaseController)<br>
 6. Esempio del costrutto base ng-repeat con possibilità di filtrare (CostruttiBaseController)<br>
 7. Esempio di combobox con l'utilizzo del costrutto ng-options (CostruttiBaseController)<br>
-8. Esempio apertura di un popup (ModalController) --> la pagina visualizza inizialmente una lista di uffici aventi le info base quando si clicca su uno si apre un popup con il dettaglio<br>
+8. Esempio di un multiple select item con l'utilizzo dei costrutti ng-repeat, ng-click e ng-class. In questo esempio viene anche fatto un ciclo for in Angular (CostruttiBaseController)<br>
+9. Esempio di una pagina con più tabs con l'utilizzo del costrutto ng-show (Nessun controller Spring)<br>
+10. Esempio apertura di un popup (ModalController) --> la pagina visualizza inizialmente una lista di uffici aventi le info base quando si clicca su uno si apre un popup con il dettaglio<br>
 
 L'esempio 3 (form di compilazione) contiene anche un esempio di sincronizzazione bidirezionale delle variabili (quando si compila una input text viene modificata subito la variabile)
 
@@ -32,7 +34,10 @@ Per provare il progetto e' necessario eseguire il jetty di Maven
 ### Link
 Esempio con HelloWorld: http://localhost:8080/webAngular/pages/HelloWorld/Welcome.jsp <br>
 Esempio primo form: http://localhost:8080/webAngular/pages/PrimoForm/PrimoForm.jsp <br>
-Esempio costrutti base: http://localhost:8080/webAngular/pages/CostruttiBase/CostruttiBase.jsp <br>
+Esempio lista di elementi: http://localhost:8080/webAngular/pages/CostruttiBase/ListaDiElementi.jsp <br>
+Esempio combobox: http://localhost:8080/webAngular/pages/CostruttiBase/ComboBox.jsp<br>
+Esempio multiple select: http://localhost:8080/webAngular/pages/CostruttiBase/MultipleSelect.jsp<br>
+Esempio multiple tabs: http://localhost:8080/webAngular/pages/CostruttiBase/Tabs.jsp<br>
 Esempio modal: localhost:8080/webAngular/pages/Modal/Modal.jsp <br>
 
 ## myFirstApplication

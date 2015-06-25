@@ -13,6 +13,7 @@ public class UfficioDetail extends Ufficio {
 		this.nome = uff.getNome();
 		this.area = uff.getArea();
 		this.piano = uff.getPiano();
+		this.active = uff.isActive();
 	}
 
 	public String getResponsabile() {

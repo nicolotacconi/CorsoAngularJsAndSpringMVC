@@ -34,17 +34,5 @@
 		</li>
 
 	</div>
-
-	<b>COMBOBOX</b>
-
-	<div>
-		<select ng-model="selectedUfficio"
-			ng-options="ufficio as ufficio.nome for ufficio in uffici"></select>
-		<div>
-			NOME: {{selectedUfficio.nome}} <br> PIANO: {{selectedUfficio.piano}} <br>
-			AREA: {{selectedUfficio.area}} <br> <br>
-		</div>
-	</div>
-
 </body>
 </html>
