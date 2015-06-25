@@ -19,12 +19,11 @@ Questo progetto contiene alcuni esempi base di angularJs e Spring MVC utilizzand
 2. Chiamata ad un controller senza alcun parametro avente come riposta un oggetto (HelloWorldController) --> NON linkato nella pagina di welcome<br>
 3. Chiamata ad un controller avente un parametro di tipo oggetto (PrimoFormController)<br>
 4. Chiamata a due controller utilizzando le promise (HelloWorldController)<br>
-5. Esempio del costrutto base ng-repeat (CostruttiBaseController)<br>
-6. Esempio del costrutto base ng-repeat con possibilità di filtrare (CostruttiBaseController)<br>
-7. Esempio di combobox con l'utilizzo del costrutto ng-options (CostruttiBaseController)<br>
-8. Esempio di un multiple select item con l'utilizzo dei costrutti ng-repeat, ng-click e ng-class. In questo esempio viene anche fatto un ciclo for in Angular (CostruttiBaseController)<br>
-9. Esempio di una pagina con più tabs con l'utilizzo del costrutto ng-show (Nessun controller Spring)<br>
-10. Esempio apertura di un popup (ModalController) --> la pagina visualizza inizialmente una lista di uffici aventi le info base quando si clicca su uno si apre un popup con il dettaglio<br>
+5. Esempio del costrutto base ng-repeat con possibilità di filtrare e ordinare(CostruttiBaseController), attraverso 3 pulsanti è possibile nascondere o visualizzare uno dei tre esempi (cotrutto ng-hide)<br>
+6. Esempio di combobox con l'utilizzo del costrutto ng-options (CostruttiBaseController)<br>
+7. Esempio di un multiple select item con l'utilizzo dei costrutti ng-repeat, ng-click e ng-class. In questo esempio viene anche fatto un ciclo for in Angular (CostruttiBaseController)<br>
+8. Esempio di una pagina con più tabs con l'utilizzo del costrutto ng-show (Nessun controller Spring)<br>
+9. Esempio apertura di un popup (ModalController) --> la pagina visualizza inizialmente una lista di uffici aventi le info base quando si clicca su uno si apre un popup con il dettaglio<br>
 
 L'esempio 3 (form di compilazione) contiene anche un esempio di sincronizzazione bidirezionale delle variabili (quando si compila una input text viene modificata subito la variabile)
 

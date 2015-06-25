@@ -3,9 +3,10 @@ angular.module('intranetAngular.controllers')
 .controller('CostruttiBaseController',
 		[ '$scope', 'costruttiBaseService', function($scope, costruttiBaseService) {
 
-			
+	// variabili per visualizzare uno dei tre esempi
+	$scope.esempioDaVisualizzare = "listaSemplice";
+	
 	// esempio semplice di lavorare con liste
-			
 	$scope.uffici ;
 	
 	$scope.getUffici = function() {
