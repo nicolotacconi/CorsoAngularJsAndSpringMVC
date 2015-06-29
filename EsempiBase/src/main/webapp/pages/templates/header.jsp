@@ -45,6 +45,8 @@
 	src="${pageContext.request.contextPath}/pages/CostruttiBase/CostruttiBaseController.js"></script>
 <script type="text/javascript"
 	src="${pageContext.request.contextPath}/pages/Modal/ModalController.js"></script>
+<script type="text/javascript"
+	src="${pageContext.request.contextPath}/pages/Watch/WatchController.js"></script>
 
 
 

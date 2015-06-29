@@ -25,6 +25,7 @@ Questo progetto contiene alcuni esempi base di angularJs e Spring MVC utilizzand
 8. Esempio di un multiple select item con l'utilizzo dei costrutti ng-repeat, ng-click e ng-class. In questo esempio viene anche fatto un ciclo for in Angular (CostruttiBaseController)<br>
 9. Esempio di una pagina con più tabs con l'utilizzo del costrutto ng-show (Nessun controller Spring)<br>
 10. Esempio apertura di un popup (ModalController) --> la pagina visualizza inizialmente una lista di uffici aventi le info base quando si clicca su uno si apre un popup con il dettaglio<br>
+10. Esempio di utilizzo dei $watch in angular js<br>
 
 L'esempio 3 (form di compilazione) contiene anche un esempio di sincronizzazione bidirezionale delle variabili (quando si compila una input text viene modificata subito la variabile)
 
@@ -38,7 +39,8 @@ Esempio lista di elementi: http://localhost:8080/webAngular/pages/CostruttiBase/
 Esempio combobox: http://localhost:8080/webAngular/pages/CostruttiBase/ComboBox.jsp<br>
 Esempio multiple select: http://localhost:8080/webAngular/pages/CostruttiBase/MultipleSelect.jsp<br>
 Esempio multiple tabs: http://localhost:8080/webAngular/pages/CostruttiBase/Tabs.jsp<br>
-Esempio modal: localhost:8080/webAngular/pages/Modal/Modal.jsp <br>
+Esempio modal: http://localhost:8080/webAngular/pages/Modal/Modal.jsp <br>
+Esempio Watch: http://localhost:8080/webAngular/pages/Watch/Watch.jsp <br>
 
 ## myFirstApplication
 Questo progetto contiene un semplice esempio di HelloWorld chiamando un controller base.<br>
