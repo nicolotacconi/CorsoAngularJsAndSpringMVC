@@ -47,6 +47,12 @@
 	src="${pageContext.request.contextPath}/pages/Modal/ModalController.js"></script>
 <script type="text/javascript"
 	src="${pageContext.request.contextPath}/pages/Watch/WatchController.js"></script>
+<script type="text/javascript"
+	src="${pageContext.request.contextPath}/pages/Ereditarieta/PageController.js"></script>
+	<script type="text/javascript"
+	src="${pageContext.request.contextPath}/pages/Ereditarieta/RicercaController.js"></script>
+	<script type="text/javascript"
+	src="${pageContext.request.contextPath}/pages/Ereditarieta/RisultatiController.js"></script>
 
 
 
