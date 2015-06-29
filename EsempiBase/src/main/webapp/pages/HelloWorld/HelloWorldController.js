@@ -1,7 +1,7 @@
 angular.module('intranetAngular.controllers')
 
 .controller('HelloWorldController',
-		[ '$scope', 'helloWorldService', function($scope, helloWorldService) {
+		[ '$scope', 'helloWorldService', '$q', function($scope, helloWorldService,$q) {
 
 			$scope.message;
 
@@ -41,6 +41,15 @@ angular.module('intranetAngular.controllers')
 					
 				}).error(function(error) {
 					$scope.message = "ERRORE";
+				});
+			};
+			
+			$scope.attendiDueRisposte = function() {
+				var funzione1DaChiamare = helloWorldService.getMessaggioDiBenvenuto();
+				var funzione2DaChiamare = helloWorldService.salutaUtente("Benvenuto","Pippo");
+				
+				$q.all([funzione1DaChiamare, funzione2DaChiamare]).then(function(data){
+					console.log(data[0], data[1]);
 				});
 			};
 

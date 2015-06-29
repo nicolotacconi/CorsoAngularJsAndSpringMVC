@@ -32,6 +32,13 @@
 			<td><button class="btn" type="button" ng-click="salutaUtente()">
 					Message Promise</button></td>
 		</tr>
+		
+		<tr>
+
+			<td></td>
+			<td><button class="btn" type="button" ng-click="attendiDueRisposte()">
+					Message Attendi Due Risposte</button></td>
+		</tr>
 	</table>
 
 </body>

@@ -9,10 +9,10 @@
 		<div class="div-cell-img" style="vertical-align: middle;">
 			<span><a href="mailto:infopminformatica@gmail.com"><img
 					alt="mail"
-					src="resources/images/glyphicons_free/glyphicons_social/png/social-40-e-mail.png"></a></span>
+					src="../../resources/images/glyphicons_free/glyphicons_social/png/social-40-e-mail.png"></a></span>
 			<span><a href="https://www.facebook.com/pages/PM-Informatica/"
 				target="_blank"> <img alt="fb"
-					src="resources/images/glyphicons_free/glyphicons_social/png/social-31-facebook.png"></a></span>
+					src="../../resources/images/glyphicons_free/glyphicons_social/png/social-31-facebook.png"></a></span>
 		</div>
 	</div>
 	<br>

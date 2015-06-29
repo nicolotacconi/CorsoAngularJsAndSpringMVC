@@ -6,7 +6,7 @@
 				<td width="10%"></td>
 				<td width="20%"><img alt="logo"
 					style="background-color: white; margin-top: 2cm;"
-					src="resources/images/logo_pm_informatica.png"></td>
+					src="../../resources/images/logo_pm_informatica.png"></td>
 				<td valign="bottom" width="60%" align="right">
 					<table>
 						<tr>

@@ -3,7 +3,7 @@
 	<table style="margin-top: 0.5cm;">
 		<tr>
 			<td class="servizi-colonna-img"><img alt="Assistenza Tecnica"
-				src="resources/images/assistenza_tecnica.jpg"></td>
+				src="../../resources/images/assistenza_tecnica.jpg"></td>
 
 			<td class="servizi-colonna-testo"><b>Servizi Assistenza
 					Tecnica:</b> Ci occupiamo di assistenza e manutenzione di desktop,
@@ -16,7 +16,7 @@
 				consumo quali inkjet e toner.</td>
 
 			<td class="servizi-colonna-img"><img alt="Assistenza Tecnica"
-				src="resources/images/configurazione_pc.jpg"></td>
+				src="../../resources/images/configurazione_pc.jpg"></td>
 			<td class="servizi-colonna-testo"><b>Configurazione PC:</b>
 				Configurazioni iniziali su computer, notebook, smartphone e tablet.
 				Riportiamo il sistema operativo allo stato di fabbrica o lo
@@ -32,7 +32,7 @@
 
 
 			<td class="servizi-colonna-img"><img alt="Assistenza Tecnica"
-				src="resources/images/pc_assemblato.jpg"></td>
+				src="../../resources/images/pc_assemblato.jpg"></td>
 			<td class="servizi-colonna-testo"><b>Pc su misura:</b>
 				Costruiamo il tuo pc su misura come lo vuoi tu. Configuriamo Pc
 				Desktop personalizzati in base alle esigenze del cliente. Pc da
@@ -42,7 +42,7 @@
 				utilizzare solo per internet.</td>
 
 			<td class="servizi-colonna-img"><img alt="Assistenza Tecnica"
-				src="resources/images/rimozione_virus.jpg"></td>
+				src="../../resources/images/rimozione_virus.jpg"></td>
 			<td class="servizi-colonna-testo"><b>Rimozione Virus e
 					Malware:</b> Rimozione virus di qualsiasi genere. Installazione
 				Antivirus e ottimizzazione sistema operativo per inpedire la
@@ -57,7 +57,7 @@
 		<tr>
 
 			<td class="servizi-colonna-img"><img alt="Assistenza Tecnica"
-				src="resources/images/rigenerazione_toner.jpg"></td>
+				src="../../resources/images/rigenerazione_toner.jpg"></td>
 			<td class="servizi-colonna-testo"><b>Rigenerazione Toner:</b>
 				Rigeneriamo all'interno del nostro laboratorio circa 80% delle
 				cartucce inkjet e Laser delle varie marche come HP Canon Brother
@@ -68,7 +68,7 @@
 				rigenerata, è sempre il doppio.</td>
 
 			<td class="servizi-colonna-img"><img alt="Assistenza Tecnica"
-				src="resources/images/antifurto.jpg"></td>
+				src="../../resources/images/antifurto.jpg"></td>
 			<td class="servizi-colonna-testo"><b>Installazione sistemi
 					di antifurto:</b> Installiamo servizi di antifurto e videosorveglianza
 				per qualsiasi esigenza.</td>
@@ -76,7 +76,7 @@
 		<tr>
 
 			<td class="servizi-colonna-img"><img alt="Assistenza Tecnica"
-				src="resources/images/iphone_schermo_rotto.jpg"></td>
+				src="../../resources/images/iphone_schermo_rotto.jpg"></td>
 			<td class="servizi-colonna-testo"><b>Riparazione Schermi:</b>
 				Ripariamo gli schermi di smartphone e tablet di qualsiasi marca e
 				modello (Apple, Android, Windows Phone).</td>

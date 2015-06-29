@@ -31,9 +31,9 @@
 <script type="text/javascript"
 	src="${pageContext.request.contextPath}/resources/js/app.js"></script>
 <script type="text/javascript"
-	src="${pageContext.request.contextPath}/resources/js/controllers/HomeController.js"></script>
+	src="${pageContext.request.contextPath}/pages/Home/HomeController.js"></script>
 <script type="text/javascript"
-	src="${pageContext.request.contextPath}/resources/js/controllers/LoginController.js"></script>
+	src="${pageContext.request.contextPath}/pages/templates/LoginController.js"></script>
 
 
 <!-- INCLUDO GROWL -->

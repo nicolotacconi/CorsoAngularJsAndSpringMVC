@@ -23,41 +23,36 @@ pmInformaticaWebSiteAngular.config([
 					'/servizi',
 					{
 						templateUrl : PM_INFORMATICA_WEBSITE.contextPath
-								+ 'pages/Serivizi.jsp'
+								+ 'pages/Servizi/Servizi.jsp'
 					}).when(
 					'/contatti',
 					{
 						templateUrl : PM_INFORMATICA_WEBSITE.contextPath
-								+ 'pages/Contatti.jsp'
-					}).when(
-					'/servizi',
-					{
-						templateUrl : PM_INFORMATICA_WEBSITE.contextPath
-								+ 'pages/Servizi.jsp'
+								+ 'pages/Contatti/Contatti.jsp'
 					}).when(
 					'/home',
 					{
 						templateUrl : PM_INFORMATICA_WEBSITE.contextPath
-								+ 'pages/Home.jsp'
+								+ 'pages/Home/Home.jsp'
 					}).when(
 					'/prenotazione',
 					{
 						templateUrl : PM_INFORMATICA_WEBSITE.contextPath
-								+ 'pages/Prenotazione.jsp'
+								+ 'pages/Prenotazione/Prenotazione.jsp'
 					}).when(
 					'/galleria',
 					{
 						templateUrl : PM_INFORMATICA_WEBSITE.contextPath
-								+ 'pages/Galleria.jsp'
+								+ 'pages/Galleria/Galleria.jsp'
 					}).when(
 					'/news',
 					{
 						templateUrl : PM_INFORMATICA_WEBSITE.contextPath
-								+ 'pages/News.jsp'
+								+ 'pages/News/News.jsp'
 					}).when(
 					'/contenuti',
 					{
 						templateUrl : PM_INFORMATICA_WEBSITE.contextPath
-								+ 'pages/Contenuti.jsp'
+								+ 'pages/Contenuti/Contenuti.jsp'
 					})
 		} ]);

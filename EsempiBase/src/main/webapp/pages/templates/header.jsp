@@ -28,23 +28,23 @@
 <script type="text/javascript"
 	src="${pageContext.request.contextPath}/resources/js/app.js"></script>
 <script type="text/javascript"
-	src="${pageContext.request.contextPath}/resources/js/services/HelloWorldService.js"></script>
+	src="${pageContext.request.contextPath}/pages/HelloWorld/HelloWorldService.js"></script>
 <script type="text/javascript"
-	src="${pageContext.request.contextPath}/resources/js/services/PrimoFormService.js"></script>
+	src="${pageContext.request.contextPath}/pages/PrimoForm/PrimoFormService.js"></script>
 <script type="text/javascript"
-	src="${pageContext.request.contextPath}/resources/js/services/CostruttiBaseService.js"></script>
+	src="${pageContext.request.contextPath}/pages/CostruttiBase/CostruttiBaseService.js"></script>
 <script type="text/javascript"
-	src="${pageContext.request.contextPath}/resources/js/services/ModalService.js"></script>
+	src="${pageContext.request.contextPath}/pages/Modal/ModalService.js"></script>
 
 
 <script type="text/javascript"
-	src="${pageContext.request.contextPath}/resources/js/controllers/HelloWorldController.js"></script>
+	src="${pageContext.request.contextPath}/pages/HelloWorld/HelloWorldController.js"></script>
 <script type="text/javascript"
-	src="${pageContext.request.contextPath}/resources/js/controllers/PrimoFormController.js"></script>
+	src="${pageContext.request.contextPath}/pages/PrimoForm/PrimoFormController.js"></script>
 <script type="text/javascript"
-	src="${pageContext.request.contextPath}/resources/js/controllers/CostruttiBaseController.js"></script>
+	src="${pageContext.request.contextPath}/pages/CostruttiBase/CostruttiBaseController.js"></script>
 <script type="text/javascript"
-	src="${pageContext.request.contextPath}/resources/js/controllers/ModalController.js"></script>
+	src="${pageContext.request.contextPath}/pages/Modal/ModalController.js"></script>
 
 
 

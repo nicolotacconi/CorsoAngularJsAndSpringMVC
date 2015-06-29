@@ -4,13 +4,13 @@
 <html ng-app="pmInformaticaWebSiteAngular">
 <head>
 <title>Pm Informatica</title>
-<jsp:include page="templates/header.jsp" />
+<jsp:include page="../templates/header.jsp" />
 </head>
 <body>
 
 	<div id="container">
 		<div id="content">
-			<jsp:include page="templates/intestazione.jsp" />
+			<jsp:include page="../templates/intestazione.jsp" />
 
 			<table width="100%">
 				<tr>
@@ -18,7 +18,7 @@
 					<td width="80%">
 						<div ng-view class="col-md-12"></div>
 						<div id="footer">
-							<jsp:include page="templates/piePagina.jsp" />
+							<jsp:include page="../templates/piePagina.jsp" />
 						</div>
 					</td>
 					<td width="10%"></td>
