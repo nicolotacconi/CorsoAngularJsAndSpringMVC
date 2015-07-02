@@ -5,5 +5,8 @@ angular.module('intranetAngular.controllers')
 			
 		$scope.risultati = [];
 		
+		$scope.lanciaBroadcast = function () {
+			$scope.$broadcast('EventoBroadcast', ["Parametro Broadcast"]);
+		};
 
 		} ]);

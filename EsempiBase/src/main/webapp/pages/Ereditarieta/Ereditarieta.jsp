@@ -37,5 +37,16 @@
 		</tr>
 	</table>
 
+	<br>
+	<br>
+
+	<div>
+	Esempo BROADCAST
+	<br>
+			<button class="btn" type="button"
+					ng-click="lanciaBroadcast()">Lancia Broadcast</button>
+	
+	</div>
+
 </body>
 </html>

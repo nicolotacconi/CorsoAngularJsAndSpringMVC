@@ -26,4 +26,9 @@ angular.module('intranetAngular.controllers')
 			
 				} ];
 			};
+			
+			$scope.$on('EventoBroadcast', function(event, parametro) { 
+				console.log("Intercettato evento di Broadcast "+parametro); 
+			});
+			
 		} ]);
