@@ -28,6 +28,7 @@ Questo progetto contiene alcuni esempi base di angularJs e Spring MVC utilizzand
 11. Esempio di utilizzo dei $watch in angular js<br>
 12. Esempio di ereditarietà tra i controller in angular js (divisione di un form in due controller, uno utile alla ricerca, e uno a manipolare i risultati, i due comunicano attraverso un controller padre che contiene la lista dei risultati)<br>
 13. L'esempio sopra indicato riporta anche un pulsante per provare l'evento broadcast di AngularJs<br>
+14. Esempio di test di un js con Karma (TestDiProva.js) --> Per eseguire il test deve essere installato karma<br>
 
 L'esempio 3 (form di compilazione) contiene anche un esempio di sincronizzazione bidirezionale delle variabili (quando si compila una input text viene modificata subito la variabile)
 

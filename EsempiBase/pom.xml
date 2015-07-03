@@ -1,16 +1,16 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
-  <modelVersion>4.0.0</modelVersion>
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
 
-  <groupId>com.esempio.angularjs</groupId>
-  <artifactId>EsempiBase</artifactId>
-  <version>0.0.1-SNAPSHOT</version>
-  <packaging>war</packaging>
+	<groupId>com.esempio.angularjs</groupId>
+	<artifactId>EsempiBase</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<packaging>war</packaging>
 
-  <name>EsempiBase</name>
-  <url>http://maven.apache.org</url>
+	<name>EsempiBase</name>
+	<url>http://maven.apache.org</url>
 
-  <properties>
+	<properties>
 		<angularjs.version>1.2.16</angularjs.version>
 		<angular-google-chart.version>0.0.8</angular-google-chart.version>
 		<commons-dbcp.version>1.4</commons-dbcp.version>
@@ -123,6 +123,22 @@
 					<stopPort>9966</stopPort>
 					<stopKey>foo</stopKey>
 				</configuration>
+			</plugin>
+			<plugin>
+				<groupId>com.kelveden</groupId>
+				<artifactId>maven-karma-plugin</artifactId>
+				<version>1.1</version>
+				<executions>
+					<execution>
+						<id>runTests</id>
+						<goals>
+							<goal>start</goal>
+						</goals>
+						<configuration>
+							<configFile>${basedir}/src/test/resources/karma-config.js</configFile>
+						</configuration>
+					</execution>
+				</executions>
 			</plugin>
 		</plugins>
 	</build>
