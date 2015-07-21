@@ -66,3 +66,13 @@ Per provare il progetto e' necessario eseguire il jetty di Maven
 ### Link
 http://localhost:8080/pminformatica/pages/Home/Home.jsp<br>
 
+## ExtensionLibraries
+Questo progetto contiene alcuni esempi di librerie di utilità <br>
+1. Esempio utilizzo Growl<br>
+
+### Configurazioni
+Per provare il progetto e' necessario eseguire il jetty di Maven
+
+### Link
+Esempio con Growl: http://localhost:8080/extension/pages/Growl/Growl.jsp <br>
+
