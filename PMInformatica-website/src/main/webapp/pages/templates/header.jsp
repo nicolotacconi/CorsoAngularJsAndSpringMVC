@@ -33,8 +33,11 @@
 <script type="text/javascript"
 	src="${pageContext.request.contextPath}/pages/Home/HomeController.js"></script>
 <script type="text/javascript"
-	src="${pageContext.request.contextPath}/pages/templates/LoginController.js"></script>
+	src="${pageContext.request.contextPath}/pages/Home/LoginController.js"></script>
 
+<!-- INCLUDO I SERVICE -->
+<script type="text/javascript"
+	src="${pageContext.request.contextPath}/pages/Home/LoginService.js"></script>
 
 <!-- INCLUDO GROWL -->
 <link

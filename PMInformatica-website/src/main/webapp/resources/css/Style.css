@@ -1,3 +1,7 @@
+.navbar .nav {
+	margin-left: 150px;
+}
+
 .navbar-custom {
 	background-color: rgb(242, 148, 0);
 }
@@ -52,17 +56,19 @@ input:focus,textarea:focus,.focus {
 .div-row {
 	display: table-row;
 	width: 100%;
+	
 }
 
 .div-cell-img {
 	display: table-cell;
-	width: 10%;
-	text-align: left;
+	width: 60%;
+	text-align: right;
+	margin-right: 150px;
 }
 
 .div-cell-text {
 	display: table-cell;
-	width: 90%;
+	width: 40%;
 	text-align: left;
 }
 
@@ -84,10 +90,14 @@ div#content {
 }
 
 div#footer {
-	background-color: rgb(242, 148, 0);
-	bottom: 0;
-	height: 5%;
-	width: 80%;
-	position: absolute;
-	text-align: center;	
+	padding-top: 2em;
+    background-color:  rgb(242, 148, 0);
+    color: white;
+    padding-bottom: 2em;
+    
+}
+
+.marginipagina {
+	margin-left: 150px;
+	margin-right: 150px;
 }

@@ -1,7 +1,7 @@
 var pmInformaticaWebSiteAngular = angular.module('pmInformaticaWebSiteAngular',
 		[ 'pmInformaticaWebSiteAngular.controllers',
 				'pmInformaticaWebSiteAngular.services', 'ngRoute',
-				'angular-growl', 'ngMap' ]);
+				'angular-growl', 'ngMap', 'ui.bootstrap' ]);
 
 angular.module('pmInformaticaWebSiteAngular.controllers', []);
 angular.module('pmInformaticaWebSiteAngular.services', []);

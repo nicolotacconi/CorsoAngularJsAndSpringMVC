@@ -35,6 +35,21 @@
 					<br>
 				</div>
 
+				<div class="div-table">
+					<div class="div-row">
+						<div class="div-cell-img">
+							<span><img alt="skype"
+								src="../../resources/images/glyphicons_free/glyphicons/png/glyphicons-203-shopping-cart.png"></span>
+						</div>
+						<div class="div-cell-text">
+							<span><a
+								href="https://www.facebook.com/pages/PM-Informatica/"
+								target="_blank" class="contatti-colonna-testo">
+									http://pminformaticashop.com/</a> </span>
+						</div>
+					</div>
+					<br>
+				</div>
 
 
 				<div class="div-table">
@@ -96,7 +111,6 @@
 					</div>
 					<br>
 				</div>
-
 
 			</td>
 

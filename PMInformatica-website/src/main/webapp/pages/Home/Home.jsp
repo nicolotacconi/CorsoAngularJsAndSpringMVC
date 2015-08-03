@@ -9,23 +9,22 @@
 <body>
 
 	<div id="container">
-		<jsp:include page="../templates/intestazione.jsp" />
+		<jsp:include page="intestazione.jsp" />
 
-		<table width="100%">
+		<table class="marginipagina">
 			<tr>
-				<td width="10%"></td>
-				<td width="80%">
-					<div ng-view class="scrollable"></div>
-					<div id="footer">
-						<jsp:include page="../templates/piePagina.jsp" />
+				<td>
+					<div>
+						<div ng-view></div>
 					</div>
 				</td>
-				<td width="10%"></td>
 			</tr>
 		</table>
-
-
-
+		<br>
+		<br>
+		<div id="footer">
+			<jsp:include page="piePagina.jsp" />
+		</div>
 	</div>
 </body>
 </html>
