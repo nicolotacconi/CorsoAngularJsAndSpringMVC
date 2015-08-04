@@ -1,21 +1,27 @@
 angular.module('pmInformaticaWebSiteAngular.controllers')
 
-.controller('LoginController', [ '$scope', 'growl', 'loginService', function($scope, growl, loginService ) {
+.controller('LoginController', [ '$scope', 'growl', 'loginService' , 
+                                 function($scope, growl, loginService ) {
 
 	$scope.utente;
 	$scope.password;
 	
 
 	$scope.login = function() {
-		if ($scope.utente != 'pminformatica' || $scope.password != 'pswPmInformatica#2015') {
-			growl.error("Utente e password non corretti");
+		var loginCorrect = loginService.login($scope.utente , $scope.password);
+		
+		if (loginCorrect) {
+			growl.info("Autenticazione Eseguita");
+			$scope.utente = "";
+			$scope.password = "";
 		}
 		else{
-			growl.info("Autenticazione Eseguita");
-			loginService.togle();
+			growl.error("Utente e password non corretti");
 			$scope.utente = "";
 			$scope.password = "";
 		}
 	}
+	
+	
 
 } ]);
