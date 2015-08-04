@@ -1,12 +1,13 @@
 angular.module('pmInformaticaWebSiteAngular.services')
 
-.factory('loginService', [ '$http', function($http) {
+.service('loginService', [ '$http', function($http) {
 
-	isLogged = false;
+	var isLogged = false;
 
 	return {
 		
 		login : function(utente, password) {
+			
 			if (utente != 'pminformatica' || password != 'pswPmInformatica#2015') {
 				isLogged = false;
 				return false;

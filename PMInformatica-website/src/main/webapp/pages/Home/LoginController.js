@@ -1,27 +1,29 @@
 angular.module('pmInformaticaWebSiteAngular.controllers')
 
-.controller('LoginController', [ '$scope', 'growl', 'loginService' , 
-                                 function($scope, growl, loginService ) {
+.controller('LoginController', [ '$scope', 'loginService', '$modalInstance', 'utente' , '$q'
+                                 , function($scope, loginService, $modalInstance, utente, $q) {
 
-	$scope.utente;
-	$scope.password;
+	$scope.utente = utente;
 	
-
 	$scope.login = function() {
-		var loginCorrect = loginService.login($scope.utente , $scope.password);
+						
+		var deferred = $q.defer();
+		var promise = deferred.promise;
+		 
+		promise
+		  .then(function() {
+			  // chiamo il servizio
+			 return loginService.login($scope.utente.user, $scope.utente.password);
+		  })
+		  .then(function(credezialiOk) {
+			  // chiudo il popup dando l'ok o meno del login
+		      $modalInstance.close(credezialiOk);
+		   });
+		 
+		deferred.resolve();
+	
+	    
 		
-		if (loginCorrect) {
-			growl.info("Autenticazione Eseguita");
-			$scope.utente = "";
-			$scope.password = "";
-		}
-		else{
-			growl.error("Utente e password non corretti");
-			$scope.utente = "";
-			$scope.password = "";
-		}
-	}
+	};
 	
-	
-
 } ]);

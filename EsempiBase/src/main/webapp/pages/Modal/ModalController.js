@@ -21,19 +21,19 @@ angular.module('intranetAngular.controllers')
 		// recupero il dettaglio
 		modalService.getDettaglioUfficio(ufficioSelected).success(function(dettaglioUfficio) {
 	  	
-	  	$modal.open({
-			animation : true,
-			templateUrl : "popupUfficio.jsp",
-			controller : 'popupController',
-			resolve : {
-				ufficio : function() {
-					return dettaglioUfficio;
+		  	$modal.open({
+				animation : true,
+				templateUrl : "popupUfficio.jsp",
+				controller : 'popupController',
+				resolve : {
+					ufficio : function() {
+						return dettaglioUfficio;
+					}
 				}
-			}
+			});
+		}).error(function(error) {
+			alert(error);
 		});
-	}).error(function(error) {
-		alert(error);
-	});
 		
 	  	
 	};

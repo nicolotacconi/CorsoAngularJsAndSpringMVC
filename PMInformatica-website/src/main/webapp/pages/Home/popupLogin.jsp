@@ -4,7 +4,7 @@
 	<h3 class="modal-title">Login</h3>
 </div>
 
-<div class="modal-body" ng-controller="LoginController">
+<div class="modal-body">
 	<img alt="logo" style="background-color: white; margin-top: 0.5;"
 		src="../../resources/images/logo_pm_informatica.png">
 	<form>
@@ -16,12 +16,12 @@
 							<td width="20%" style="vertical-align: middle;"><label
 								style="height: 20px; width: 75px;">Username:</label></td>
 							<td width="20%" style="vertical-align: top;"><input
-								type="text" style="height: 20px; width: 75px;" ng-model="utente"></td>
+								type="text" style="height: 20px; width: 75px;" ng-model="utente.user"></td>
 							<td width="20%" style="vertical-align: middle;"><label
 								style="height: 20px; width: 75px;">Password:</label></td>
 							<td width="20%" style="vertical-align: top;"><input
 								type="password" style="height: 20px; width: 75px;"
-								ng-model="password"></td>
+								ng-model="utente.password"></td>
 							<td width="20%" style="vertical-align: top;">
 								<button class="login-button" type="submit" value="Login"
 									ng-click="login()">Login</button>

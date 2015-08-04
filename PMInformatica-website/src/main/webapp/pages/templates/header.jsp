@@ -31,7 +31,7 @@
 <script type="text/javascript"
 	src="${pageContext.request.contextPath}/resources/js/app.js"></script>
 <script type="text/javascript"
-	src="${pageContext.request.contextPath}/pages/Home/HomeController.js"></script>
+	src="${pageContext.request.contextPath}/pages/Home/IntestazioneController.js"></script>
 <script type="text/javascript"
 	src="${pageContext.request.contextPath}/pages/Home/LoginController.js"></script>
 

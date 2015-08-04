@@ -1,7 +1,7 @@
 <div>
 	<div growl></div>
 
-	<table width="100%" ng-controller="HomeController">
+	<table width="100%" ng-controller="IntestazioneController">
 		<tr>
 
 			<td class="navbar navbar-custom">
