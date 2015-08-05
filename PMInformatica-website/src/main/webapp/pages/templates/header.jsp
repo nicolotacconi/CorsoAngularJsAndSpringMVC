@@ -7,37 +7,39 @@
 <spring:url value="/webjars/" var="webjarsPath" />
 
 <!-- INCLUDO LE LIBRERIE BASE DI ANGULAR -->
-<script src="${webjarsPath}angularjs/1.2.16/angular.min.js"></script>
+<script src="${webjarsPath}angularjs/1.4.2/angular.min.js"></script>
 <script
-	src="${webjarsPath}angularjs/1.2.16/i18n/angular-locale_it-it.js"></script>
-<script src="${webjarsPath}angularjs/1.2.16/angular-resource.min.js"></script>
-<script src="${webjarsPath}angularjs/1.2.16/angular-route.min.js"></script>
-<script src="${webjarsPath}angularjs/1.2.16/angular-animate.min.js"></script>
+	src="${webjarsPath}angularjs/1.4.2/i18n/angular-locale_it-it.js"></script>
+<script src="${webjarsPath}angularjs/1.4.2/angular-resource.min.js"></script>
+<script src="${webjarsPath}angularjs/1.4.2/angular-route.min.js"></script>
+<script src="${webjarsPath}angularjs/1.4.2/angular-animate.min.js"></script>
 
 <!-- INCLUDO LE LIBRERIE BASE DI BOOTSTRAP -->
 <link
-	href="${pageContext.request.contextPath}/webjars/bootstrap/2.3.2/css/bootstrap.min.css"
+	href="${pageContext.request.contextPath}/webjars/bootstrap/3.3.5/css/bootstrap.min.css"
 	rel="stylesheet">
 <link href="${pageContext.request.contextPath}/resources/css/Style.css"
 	rel="stylesheet">
 <script type="text/javascript"
-	src="${pageContext.request.contextPath}/webjars/angular-ui-bootstrap/0.11.0/ui-bootstrap.min.js"
+	src="${pageContext.request.contextPath}/webjars/angular-ui-bootstrap/0.13.1/ui-bootstrap.min.js"
 	charset="UTF-8"></script>
 <script type="text/javascript"
-	src="${pageContext.request.contextPath}/webjars/angular-ui-bootstrap/0.11.0/ui-bootstrap-tpls.min.js"
+	src="${pageContext.request.contextPath}/webjars/angular-ui-bootstrap/0.13.1/ui-bootstrap-tpls.min.js"
 	charset="UTF-8"></script>
 
 <!-- INCLUDO I SERVIZI E I CONTROLLER JAVASCRIPT -->
 <script type="text/javascript"
 	src="${pageContext.request.contextPath}/resources/js/app.js"></script>
 <script type="text/javascript"
-	src="${pageContext.request.contextPath}/pages/Home/IntestazioneController.js"></script>
+	src="${pageContext.request.contextPath}/pages/Home/MenuController.js"></script>
 <script type="text/javascript"
-	src="${pageContext.request.contextPath}/pages/Home/LoginController.js"></script>
+	src="${pageContext.request.contextPath}/pages/Login/LoginController.js"></script>
+<script type="text/javascript"
+	src="${pageContext.request.contextPath}/pages/Prenotazione/PrenotazioneController.js"></script>
 
 <!-- INCLUDO I SERVICE -->
 <script type="text/javascript"
-	src="${pageContext.request.contextPath}/pages/Home/LoginService.js"></script>
+	src="${pageContext.request.contextPath}/pages/Login/LoginService.js"></script>
 
 <!-- INCLUDO GROWL -->
 <link

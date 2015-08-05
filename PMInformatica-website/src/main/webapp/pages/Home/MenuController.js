@@ -1,20 +1,16 @@
 angular.module('pmInformaticaWebSiteAngular.controllers')
 
-.controller('IntestazioneController',
+.controller('MenuController',
 		[ '$scope', '$location', '$modal', 'loginService','growl', 
 		  		function($scope, $location, $modal, loginService,growl) {
 			
 			$scope.isLogged = loginService.isLogged();
 			
-			$scope.isActive = function(viewLocation) {
-				return viewLocation === $location.path();
-			};
-			
 			$scope.openModal = function() {
 
 				var modalInstance = $modal.open({
 					animation : true,
-					templateUrl : "popupLogin.jsp",
+					templateUrl : "../Login/popupLogin.jsp",
 					controller : 'LoginController',
 					 resolve: {
 						 // serve per il form dell'utente
@@ -37,6 +33,7 @@ angular.module('pmInformaticaWebSiteAngular.controllers')
 			
 			$scope.logout = function(){
 				loginService.logout();
+				growl.info("Logout Eseguita");
 			};
 						
 			$scope.$watch(loginService.isLogged, function() {

@@ -9,13 +9,13 @@
 				</div>
 
 
-				<div style="margin-top: 1cm" class="div-table">
-					<div class="div-row">
-						<div class="div-cell-img">
+				<div style="margin-top: 1cm" class="div-table-contatti">
+					<div class="div-row-contatti">
+						<div class="div-cell-img-contatti">
 							<span><img alt="tel"
 								src="../../resources/images/glyphicons_free/glyphicons/png/glyphicons-442-phone-alt.png"></span>
 						</div>
-						<div class="div-cell-text">
+						<div class="div-cell-text-contatti">
 							<span>045 723 6851</span>
 						</div>
 					</div>
@@ -23,12 +23,12 @@
 				</div>
 
 				<div class="div-table">
-					<div class="div-row">
-						<div class="div-cell-img">
+					<div class="div-row-contatti">
+						<div class="div-cell-img-contatti">
 							<span><img alt="cell"
 								src="../../resources/images/glyphicons_free/glyphicons/png/glyphicons-164-iphone.png"></span>
 						</div>
-						<div class="div-cell-text">
+						<div class="div-cell-text-contatti">
 							<span>349 380 6376</span>
 						</div>
 					</div>
@@ -36,12 +36,12 @@
 				</div>
 
 				<div class="div-table">
-					<div class="div-row">
-						<div class="div-cell-img">
+					<div class="div-row-contatti">
+						<div class="div-cell-img-contatti">
 							<span><img alt="skype"
 								src="../../resources/images/glyphicons_free/glyphicons/png/glyphicons-203-shopping-cart.png"></span>
 						</div>
-						<div class="div-cell-text">
+						<div class="div-cell-text-contatti">
 							<span><a
 								href="https://www.facebook.com/pages/PM-Informatica/"
 								target="_blank" class="contatti-colonna-testo">
@@ -53,12 +53,12 @@
 
 
 				<div class="div-table">
-					<div class="div-row">
-						<div class="div-cell-img">
+					<div class="div-row-contatti">
+						<div class="div-cell-img-contatti">
 							<span><a href="mailto:p.m.informatica@pec.it"><img
 									alt="pec" src="../../resources/images/pec-home.gif"> </a></span>
 						</div>
-						<div class="div-cell-text">
+						<div class="div-cell-text-contatti">
 							<span><a href="mailto:p.m.informatica@pec.it">p.m.informatica@pec.it</a></span>
 						</div>
 					</div>
@@ -67,13 +67,13 @@
 
 
 				<div class="div-table">
-					<div class="div-row">
-						<div class="div-cell-img">
+					<div class="div-row-contatti">
+						<div class="div-cell-img-contatti">
 							<span><a href="mailto:infopminformatica@gmail.com"><img
 									alt="mail"
 									src="../../resources/images/glyphicons_free/glyphicons_social/png/social-40-e-mail.png"></a></span>
 						</div>
-						<div class="div-cell-text">
+						<div class="div-cell-text-contatti">
 							<span><a href="mailto:infopminformatica@gmail.com">infopminformatica@gmail.com</a>
 							</span>
 						</div>
@@ -82,14 +82,14 @@
 				</div>
 
 				<div class="div-table">
-					<div class="div-row">
-						<div class="div-cell-img">
+					<div class="div-row-contatti">
+						<div class="div-cell-img-contatti">
 							<span><a
 								href="https://www.facebook.com/pages/PM-Informatica/"
 								target="_blank"> <img alt="fb"
 									src="../../resources/images/glyphicons_free/glyphicons_social/png/social-31-facebook.png"></a></span>
 						</div>
-						<div class="div-cell-text">
+						<div class="div-cell-text-contatti">
 							<span><a
 								href="https://www.facebook.com/pages/PM-Informatica/"
 								target="_blank" class="contatti-colonna-testo">
@@ -100,12 +100,12 @@
 				</div>
 
 				<div class="div-table">
-					<div class="div-row">
-						<div class="div-cell-img">
+					<div class="div-row-contatti">
+						<div class="div-cell-img-contatti">
 							<span><img alt="skype"
 								src="../../resources/images/glyphicons_free/glyphicons_social/png/social-39-skype.png"></span>
 						</div>
-						<div class="div-cell-text">
+						<div class="div-cell-text-contatti">
 							<span>monduz77</span>
 						</div>
 					</div>
@@ -118,8 +118,9 @@
 				style="background-color: white; margin-top: 1cm;"
 				src="../../resources/images/logo_pm_informatica.png">
 				<div>
-					<label><b>P.M. informatica di Pietro Mondia</b> </label> <label>Via
-						Verona, 1</label> <label>37011 Calmasino di Bardolino (VR)</label>
+					<label><b>P.M. informatica di Pietro Mondia</b> </label><br> <label>Via
+						Verona, 1</label><br> <label>37011 Calmasino di Bardolino
+						(VR)</label><br>
 
 				</div>
 

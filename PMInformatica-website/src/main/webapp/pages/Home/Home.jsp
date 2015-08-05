@@ -6,10 +6,13 @@
 <title>Pm Informatica</title>
 <jsp:include page="../templates/header.jsp" />
 </head>
-<body>
+
+
+<body style="padding-top: 70px;">
+
+	<jsp:include page="Menu.jsp" />
 
 	<div id="container">
-		<jsp:include page="intestazione.jsp" />
 
 		<table class="marginipagina">
 			<tr>
@@ -20,8 +23,7 @@
 				</td>
 			</tr>
 		</table>
-		<br>
-		<br>
+		<br> <br>
 		<div id="footer">
 			<jsp:include page="piePagina.jsp" />
 		</div>
