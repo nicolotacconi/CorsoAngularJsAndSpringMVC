@@ -7,35 +7,36 @@
 			<tr>
 				<td style="width: 40%">
 					<div class="form-group">
-						<label>Nome</label> <input type="text" name="nome"
+						<label>Nome*</label> <input type="text" name="nome"
 							class="form-control" ng-model="prenotazione.nome" required>
 
 					</div>
 
 
 					<div class="form-group">
-						<label>Cognome</label> <input type="text" name="cognome"
+						<label>Cognome*</label> <input type="text" name="cognome"
 							class="form-control" ng-model="prenotazione.cognome" required>
 
 					</div>
 
 					<div class="form-group">
-						<label>Numero Telefono</label> <input type="text"
+						<label>Numero Telefono*</label> <input type="text"
 							name="numeroTelefono" class="form-control"
 							ng-model="prenotazione.numeroTelefono" required>
 					</div>
 
 					<div class="form-group">
-						<label>Email</label> <input type="email" name="email"
+						<label>Email*</label> <input type="email" name="email"
 							class="form-control" ng-model="prenotazione.email" required>
 					</div>
-					
-					
+
+
 					<div class="form-group">
-						<label>Data</label><input id="data" type="text"
+						<label>Data*</label><input id="data" type="text"
 							class="form-control input-sm" min-date="today"
 							datepicker-popup="dd/MM/yyyy" ng-model="prenotazione.data"
-							is-open="openedPopupData" /> <span class="input-group-btn">
+							is-open="openedPopupData" required /> <span
+							class="input-group-btn">
 							<button type="button" class="btn btn-default"
 								ng-click="openDataPopup($event)">
 								<i class="glyphicon glyphicon-calendar"></i>
@@ -44,15 +45,24 @@
 					</div>
 
 					<div class="form-group">
-						<label>Ora</label><input id="ora" type="time"
-							class="form-control input-sm" ng-model="prenotazione.ora" />
-						<span class="input-group-btn"> </span>
+						<label>Ora*</label><input id="ora" type="time"
+							class="form-control input-sm" ng-model="prenotazione.ora"
+							required /> </span>
 					</div>
+
+					<div class="form-group">
+						<input type="checkbox" required /> <span>Dichiaro di aver
+							letto l'informativa rilasciata ai sensi dell'art. 13 D.Lgs
+							196/03.</span>
+					</div>
+
 				</td>
 
 				<td style="width: 40%;"><span>Prenota un appuntamento in
 						negozio, il nostro staff è sempre disponibile per qualsiasi tipo
-						di consulenza, riceverai via email la conferma</span></td>
+						di consulenza. La prenotazione avrà valore solo dopo una nostra
+						conferma telefonica o via email. Verificare la correttezza dei
+						recapiti indicati</span></td>
 				<td style="width: 20%;"></td>
 			</tr>
 
