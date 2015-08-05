@@ -29,6 +29,8 @@
 						<label>Email</label> <input type="email" name="email"
 							class="form-control" ng-model="prenotazione.email" required>
 					</div>
+					
+					
 					<div class="form-group">
 						<label>Data</label><input id="data" type="text"
 							class="form-control input-sm" min-date="today"
@@ -39,6 +41,12 @@
 								<i class="glyphicon glyphicon-calendar"></i>
 							</button>
 						</span>
+					</div>
+
+					<div class="form-group">
+						<label>Ora</label><input id="ora" type="time"
+							class="form-control input-sm" ng-model="prenotazione.ora" />
+						<span class="input-group-btn"> </span>
 					</div>
 				</td>
 
