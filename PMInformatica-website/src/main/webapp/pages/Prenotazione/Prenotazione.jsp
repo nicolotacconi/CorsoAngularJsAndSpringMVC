@@ -31,17 +31,22 @@
 					</div>
 
 
+
 					<div class="form-group">
-						<label>Data*</label><input id="data" type="text"
-							class="form-control input-sm" min-date="today"
-							datepicker-popup="dd/MM/yyyy" ng-model="prenotazione.data"
-							is-open="openedPopupData" required /> <span
-							class="input-group-btn">
-							<button type="button" class="btn btn-default"
-								ng-click="openDataPopup($event)">
-								<i class="glyphicon glyphicon-calendar"></i>
-							</button>
-						</span>
+
+						<label>Data*</label>
+						<div class="input-group">
+							<input id="data" type="text" class="form-control input-sm"
+								min-date="today" datepicker-popup="dd/MM/yyyy"
+								ng-model="prenotazione.data" is-open="openedPopupData" required />
+							<span class="input-group-btn">
+								<button type="button" class="btn btn-default"
+									ng-click="openDataPopup($event)">
+									<i class="glyphicon glyphicon-calendar"></i>
+								</button>
+							</span>
+						</div>
+					</div>
 					</div>
 
 					<div class="form-group">

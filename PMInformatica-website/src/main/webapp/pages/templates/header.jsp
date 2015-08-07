@@ -8,8 +8,7 @@
 
 <!-- INCLUDO LE LIBRERIE BASE DI ANGULAR -->
 <script src="${webjarsPath}angularjs/1.4.2/angular.min.js"></script>
-<script
-	src="${webjarsPath}angularjs/1.4.2/i18n/angular-locale_it-it.js"></script>
+<script src="${webjarsPath}angularjs/1.4.2/i18n/angular-locale_it-it.js"></script>
 <script src="${webjarsPath}angularjs/1.4.2/angular-resource.min.js"></script>
 <script src="${webjarsPath}angularjs/1.4.2/angular-route.min.js"></script>
 <script src="${webjarsPath}angularjs/1.4.2/angular-animate.min.js"></script>
@@ -40,6 +39,9 @@
 <!-- INCLUDO I SERVICE -->
 <script type="text/javascript"
 	src="${pageContext.request.contextPath}/pages/Login/LoginService.js"></script>
+<script type="text/javascript"
+	src="${pageContext.request.contextPath}/pages/Prenotazione/PrenotazioneService.js"></script>
+
 
 <!-- INCLUDO GROWL -->
 <link

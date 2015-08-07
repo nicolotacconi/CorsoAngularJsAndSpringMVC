@@ -1,6 +1,7 @@
 angular.module('pmInformaticaWebSiteAngular.controllers')
 
-.controller('PrenotazioneController', [ '$scope', function($scope) {
+.controller('PrenotazioneController', [ '$scope', 'prenotazioneService','growl' , 
+                                        function($scope,prenotazioneService,growl) {
 
 	$scope.prenotazione;
 
@@ -11,7 +12,11 @@ angular.module('pmInformaticaWebSiteAngular.controllers')
 	};
 	
 	$scope.prenotaAppuntamento = function() {
-
+		prenotazioneService.prenotaAppuntamento($scope.prenotazione).success(function() {
+			growl.info("Richiesta inviata correttamente.\nVerrai contattato via email/telefono");
+		}).error(function(error) {
+			growl.error("Errore inviando la richiesta");
+		});
 	};
 
 } ]);
