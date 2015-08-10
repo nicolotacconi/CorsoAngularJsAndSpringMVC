@@ -4,12 +4,19 @@ angular.module('pmInformaticaWebSiteAngular.controllers')
 
 	$scope.myInterval = 3000;
 	$scope.slides = [ {
-		image : 'http://lorempixel.com/400/200/'
+		"ImageID" : 1,
+		"Title" : "Tulips",
+		"Summary" : "This is summary of Tulips",
+		"Path" : "http://lorempixel.com/400/200/"
 	}, {
-		image : 'http://lorempixel.com/400/200/food'
+		"ImageID" : 2,
+		"Title" : "Jellyfish",
+		"Summary" : "This is something about Jellyfish",
+		"Path" : "http://lorempixel.com/400/200/food"
 	}, {
-		image : 'http://lorempixel.com/400/200/sports'
-	}, {
-		image : 'http://lorempixel.com/400/200/people'
+		"ImageID" : 3,
+		"Title" : "Lighthouse",
+		"Summary" : "Summary of Lighthouse",
+		"Path" : "http://lorempixel.com/400/200/sports"
 	} ];
 } ]);

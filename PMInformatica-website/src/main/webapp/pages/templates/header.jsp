@@ -19,9 +19,6 @@
 	rel="stylesheet">
 <link href="${pageContext.request.contextPath}/resources/css/Style.css"
 	rel="stylesheet">
-<link
-	href="${pageContext	.request.contextPath}/resources/css/SlideShow.css"
-	rel="stylesheet">
 <script type="text/javascript"
 	src="${pageContext.request.contextPath}/webjars/angular-ui-bootstrap/0.13.1/ui-bootstrap.min.js"
 	charset="UTF-8"></script>
