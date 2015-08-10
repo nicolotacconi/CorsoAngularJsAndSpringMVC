@@ -13,10 +13,6 @@
 	outline-color: orange;
 }
 
-.navbar {
-	padding-left: 13%;
-}
-
 .navbar-inverse {
 	background-color: rgb(242, 148, 0);
 }
@@ -35,9 +31,16 @@
 	height: 50px;
 	padding: 15px 15px;
 	font-size: 18px;
-	line-height: 20px;
+	line-height: 180%;
 	color: white;
 }
+
+.navbar-brand-logo {
+	float: left;
+	height: 50px;
+	padding: 2px 2px;
+}
+
 
 .servizi-colonna-img {
 	width: 15%;

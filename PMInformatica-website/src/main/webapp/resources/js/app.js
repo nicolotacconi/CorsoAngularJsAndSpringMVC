@@ -45,11 +45,6 @@ pmInformaticaWebSiteAngular.config([
 						templateUrl : PM_INFORMATICA_WEBSITE.contextPath
 								+ 'pages/Galleria/Galleria.jsp'
 					}).when(
-					'/news',
-					{
-						templateUrl : PM_INFORMATICA_WEBSITE.contextPath
-								+ 'pages/News/News.jsp'
-					}).when(
 					'/contenuti',
 					{
 						templateUrl : PM_INFORMATICA_WEBSITE.contextPath

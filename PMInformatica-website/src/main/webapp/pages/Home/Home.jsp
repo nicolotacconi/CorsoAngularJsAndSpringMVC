@@ -8,7 +8,7 @@
 </head>
 
 
-<body style="padding-top: 70px;">
+<body style="padding-top: 6%;">
 
 	<jsp:include page="Menu.jsp" />
 
