@@ -47,11 +47,11 @@
 							</span>
 						</div>
 					</div>
-					</div>
 
 					<div class="form-group">
-						<label>Ora*</label><input id="ora" type="time"
+						<label>Ora* (dalle 9:00 alle 19:00)</label><input id="ora" type="time"
 							class="form-control input-sm" ng-model="prenotazione.ora"
+							min="09:00:00" max="19:00:00"
 							required /> </span>
 					</div>
 

@@ -98,6 +98,24 @@
 					</div>
 					<br>
 				</div>
+				
+				<div class="div-table">
+					<div class="div-row-contatti">
+						<div class="div-cell-img-contatti">
+							<span><a
+								href="https://plus.google.com/107239948879725074169/about?gl=it&hl=it"
+								target="_blank"> <img alt="fb"
+									src="../../resources/images/glyphicons_free/glyphicons_social/png/social-3-google-plus.png"></a></span>
+						</div>
+						<div class="div-cell-text-contatti">
+							<span><a
+								href="https://plus.google.com/107239948879725074169/about?gl=it&hl=it"
+								target="_blank" class="contatti-colonna-testo">
+									https://plus.google.com/107239948879725074169</a> </span>
+						</div>
+					</div>
+					<br>
+				</div>
 
 				<div class="div-table">
 					<div class="div-row-contatti">

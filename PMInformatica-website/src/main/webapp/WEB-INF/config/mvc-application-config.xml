@@ -19,7 +19,9 @@
 		<property name="objectMapper">
 			<bean
 				class="org.springframework.http.converter.json.Jackson2ObjectMapperFactoryBean">
-				<property name="simpleDateFormat" value="yyyy-MM-dd'T'HH:mm:ss.SSS'Z'" />
+				<property name="dateFormat">
+					<bean class="com.pminformatica.website.date.ISO8601DateFormat" />
+				</property>
 				<property name="featuresToDisable"
 					value="#{T(com.fasterxml.jackson.databind.DeserializationFeature).FAIL_ON_UNKNOWN_PROPERTIES}" />
 			</bean>

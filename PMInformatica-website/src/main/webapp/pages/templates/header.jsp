@@ -19,6 +19,9 @@
 	rel="stylesheet">
 <link href="${pageContext.request.contextPath}/resources/css/Style.css"
 	rel="stylesheet">
+<link
+	href="${pageContext	.request.contextPath}/resources/css/SlideShow.css"
+	rel="stylesheet">
 <script type="text/javascript"
 	src="${pageContext.request.contextPath}/webjars/angular-ui-bootstrap/0.13.1/ui-bootstrap.min.js"
 	charset="UTF-8"></script>
@@ -35,12 +38,16 @@
 	src="${pageContext.request.contextPath}/pages/Login/LoginController.js"></script>
 <script type="text/javascript"
 	src="${pageContext.request.contextPath}/pages/Prenotazione/PrenotazioneController.js"></script>
+<script type="text/javascript"
+	src="${pageContext.request.contextPath}/pages/Galleria/GalleriaController.js"></script>
 
 <!-- INCLUDO I SERVICE -->
 <script type="text/javascript"
 	src="${pageContext.request.contextPath}/pages/Login/LoginService.js"></script>
 <script type="text/javascript"
 	src="${pageContext.request.contextPath}/pages/Prenotazione/PrenotazioneService.js"></script>
+
+<!-- JQUERY -->
 
 
 <!-- INCLUDO GROWL -->
@@ -58,7 +65,6 @@
 		contextPath : '<spring:url value="/" />'
 	});
 </script>
-
 
 <!-- MAPS -->
 <script src="//maps.google.com/maps/api/js"></script>

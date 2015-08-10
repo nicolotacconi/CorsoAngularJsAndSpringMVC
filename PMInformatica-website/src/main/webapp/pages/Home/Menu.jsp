@@ -2,7 +2,7 @@
 	<div growl></div>
 
 
-	<div class="navbar navbar-inverse navbar-fixed-top">
+	<div class="navbar navbar-inverse navbar-fixed-top" ng-controller="MenuController">
 
 		<div class="navbar-header">
 			<a class="navbar-brand" href="#/servizi">Servizi</a> <a

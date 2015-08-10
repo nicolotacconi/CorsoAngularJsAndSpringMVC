@@ -1,5 +1,7 @@
 package com.pminformatica.website.dto;
 
+import java.util.Date;
+
 public class Prenotazione {
 
 	private String nome;
@@ -10,9 +12,9 @@ public class Prenotazione {
 
 	private String email;
 
-	private String data;
+	private Date data;
 
-	private String ora;
+	private Date ora;
 
 	@Override
 	public String toString() {
@@ -65,19 +67,19 @@ public class Prenotazione {
 		this.email = email;
 	}
 
-	public String getData() {
+	public Date getData() {
 		return data;
 	}
 
-	public void setData(String data) {
+	public void setData(Date data) {
 		this.data = data;
 	}
 
-	public String getOra() {
+	public Date getOra() {
 		return ora;
 	}
 
-	public void setOra(String ora) {
+	public void setOra(Date ora) {
 		this.ora = ora;
 	}
 

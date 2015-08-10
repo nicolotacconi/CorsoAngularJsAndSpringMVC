@@ -110,6 +110,25 @@
 			<artifactId>angular-growl-2</artifactId>
 			<version>0.6.0</version>
 		</dependency>
+
+		<!-- Apache Velocity -->
+		<dependency>
+			<groupId>org.apache.velocity</groupId>
+			<artifactId>velocity</artifactId>
+			<version>1.6.3</version>
+		</dependency>
+
+		<dependency>
+			<groupId>javax.mail</groupId>
+			<artifactId>mail</artifactId>
+			<version>1.4.1</version>
+		</dependency>
+
+		<dependency>
+			<groupId>com.icegreen</groupId>
+			<artifactId>greenmail</artifactId>
+			<version>1.3</version>
+		</dependency>
 	</dependencies>
 
 	<build>

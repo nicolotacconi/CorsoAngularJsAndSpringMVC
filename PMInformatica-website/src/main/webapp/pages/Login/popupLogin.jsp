@@ -13,15 +13,19 @@
 				<td valign="bottom" align="right">
 					<table>
 						<tr>
-							<td width="20%" style="vertical-align: middle;"><label
-								style="height: 20px; width: 75px;">Username:</label></td>
-							<td width="20%" style="vertical-align: top;"><input
-								type="text" style="height: 20px; width: 75px;" ng-model="utente.user"></td>
-							<td width="20%" style="vertical-align: middle;"><label
-								style="height: 20px; width: 75px;">Password:</label></td>
-							<td width="20%" style="vertical-align: top;"><input
-								type="password" style="height: 20px; width: 75px;"
-								ng-model="utente.password"></td>
+
+							<div class="form-group row">
+								<label class="col-md-3">Username: </label> <input type="text"
+									name="username" class="form-control input-sm"
+									ng-model="utente.user" required> <label
+									class="col-md-3">Password: </label> <input type="password"
+									name="password" class="form-control input-sm"
+									ng-model="utente.password" required>
+
+
+
+							</div>
+
 							<td width="20%" style="vertical-align: top;">
 								<button class="login-button" type="submit" value="Login"
 									ng-click="login()">Login</button>
@@ -30,7 +34,6 @@
 
 					</table>
 				</td>
-				
 		</table>
 	</form>
 </div>

@@ -1,0 +1,19 @@
+<html>
+	<body>
+		<b>
+		Richiesta di prenotazione appuntamento
+		</b>
+		<br>
+		Nome: ${nome}
+		<br>
+		Cognome: ${cognome}
+		<br>
+		Numero di telefono: ${numeroTelefono}
+		<br>
+		Email: ${email}
+		<br>
+		Data: ${data}
+		<br>
+		Ora: ${ora}
+	</body>
+</html>

@@ -1,11 +1,12 @@
 STEP 1
 - Inserire il link di linkedin
-- Fare un form per prenotare (inizialmente tramite mail) 
 - Capire cosa mettere nella home (inserire anche il link alla home nella navbar)
 - Rendere il logo un link
 - Sistemare in modo carino la pagina dei servizi e capire se ne servono altri
 - Spostare il login in un controller MVC in quanto così non è sicuro
 - Capire perchè quando apro il sito non funziona
+- Fare una pagina di privacy
+- Modificare l'invio della mail inserendo i parametri del suo server mail
 
 STEP 2
 - Amministrazione: contenuti
@@ -17,6 +18,6 @@ STEP 2
 - Modificare la prenotazione in modo da inserirla sul DB
 
 STEP 3
-- Fare una pagina di privacy
+
 - Guarda come aggiungere analytics
 
