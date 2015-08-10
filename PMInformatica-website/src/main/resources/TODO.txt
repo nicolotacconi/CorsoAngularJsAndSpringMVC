@@ -9,13 +9,12 @@ STEP 1
 - Modificare l'invio della mail inserendo i parametri del suo server mail
 
 STEP 2
-- Capire dove salvare le immagini e le news
+- Capire dove salvare le immagini e le offerte
 - Amministrazione: contenuti
 	- fare una pagina per inserire/eliminare immagini
-	- fare una pagina per inserire/eliminare news
-	- fare una pagina per visualizzare le prenotazioni odierne (da capire)
+	- fare una pagina per inserire/eliminare offerte
 - Fare una pagina che visualizzi le immagini in modo carino
-- Fare una pagina che visualizzi in modo carino le news
+- Fare una pagina che visualizzi in modo carino le offerte
 
 STEP 3
 

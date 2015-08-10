@@ -37,6 +37,8 @@
 	src="${pageContext.request.contextPath}/pages/Prenotazione/PrenotazioneController.js"></script>
 <script type="text/javascript"
 	src="${pageContext.request.contextPath}/pages/Galleria/GalleriaController.js"></script>
+<script type="text/javascript"
+	src="${pageContext.request.contextPath}/pages/Offerte/OfferteController.js"></script>
 
 <!-- INCLUDO I SERVICE -->
 <script type="text/javascript"
