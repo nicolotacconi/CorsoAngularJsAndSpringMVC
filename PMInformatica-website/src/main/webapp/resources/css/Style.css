@@ -31,7 +31,7 @@
 	height: 50px;
 	padding: 15px 15px;
 	font-size: 18px;
-	line-height: 180%;
+	line-height: 150%;
 	color: white;
 }
 
@@ -43,14 +43,14 @@
 
 
 .servizi-colonna-img {
-	width: 15%;
+	width: 10%;
 	padding-right: 1cm;
 	padding-left: 1cm;
 	padding-bottom: 0.5cm;
 }
 
 .servizi-colonna-testo {
-	width: 35%;
+	width: 40%;
 	text-align: justify;
 	padding-bottom: 0.5cm;
 }

@@ -57,7 +57,7 @@
 		<tr>
 
 			<td class="servizi-colonna-img"><img alt="Assistenza Tecnica"
-				src="../../resources/images/rigenerazione_toner.jpg"></td>
+				src="../../resources/images/toner.jpg"></td>
 			<td class="servizi-colonna-testo"><b>Rigenerazione Toner:</b>
 				Rigeneriamo all'interno del nostro laboratorio circa 80% delle
 				cartucce inkjet e Laser delle varie marche come HP Canon Brother
@@ -68,7 +68,7 @@
 				rigenerata, è sempre il doppio.</td>
 
 			<td class="servizi-colonna-img"><img alt="Assistenza Tecnica"
-				src="../../resources/images/antifurto.jpg"></td>
+				src="../../resources/images/antif.png"></td>
 			<td class="servizi-colonna-testo"><b>Installazione sistemi
 					di antifurto:</b> Installiamo servizi di antifurto e videosorveglianza
 				per qualsiasi esigenza.</td>
