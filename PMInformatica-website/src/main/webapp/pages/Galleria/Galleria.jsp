@@ -1,9 +1,13 @@
-<div ng-controller="GalleriaController">
-
-	<ul class="bxslider">
-		<li><img src="../../resources/images/glyphicons_free/glyphicons/png/glyphicons-435-redo.png" title="Funky roots" /></li>
-		<li><img src="../../resources/images/glyphicons_free/glyphicons/png/glyphicons-436-undo.png"
-			title="The long and winding road" /></li>
-	</ul>
-
+<div>
+	<div>
+		<div ng-controller="GalleriaController" id="slides_control">
+			<carousel interval="myInterval"> <slide
+				ng-repeat="slide in slides" active="slide.active"> <img
+				ng-src="{{slide.image}}" class="imageSlide">
+			<div class="carousel-caption">
+				<h4>Slide {{$index+1}}</h4>
+			</div>
+			</slide> </carousel>
+		</div>
+	</div>
 </div>
