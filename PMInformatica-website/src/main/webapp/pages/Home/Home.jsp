@@ -1,32 +1,13 @@
-<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
-	pageEncoding="ISO-8859-1"%>
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
-<html ng-app="pmInformaticaWebSiteAngular">
-<head>
-<title>Pm Informatica</title>
-<jsp:include page="../templates/header.jsp" />
-</head>
-
-
-<body style="padding-top: 6%;">
-
-	<jsp:include page="Menu.jsp" />
-
-	<div id="container">
-
-		<table class="marginipagina">
-			<tr>
-				<td>
-					<div>
-						<div ng-view></div>
-					</div>
-				</td>
-			</tr>
-		</table>
-		<br> <br>
-		<div id="footer">
-			<jsp:include page="piePagina.jsp" />
-		</div>
-	</div>
-</body>
-</html>
+<div>P.M. INFORMATICA SHOP è una piccola azienda fondata nel 2014
+	da un giovane imprenditore Pietro Mondia,offre prodotti ottimi
+	qualità,dispone sia di negozio cash sia di piattaforma e-commerce per
+	far arrivare direttamente i nostri prodotti nella vostra azienda o
+	abitazione. Tempestività, puntualità per garantire soddisfazione del
+	cliente sono caratteristiche fondamentali della nostra attività e
+	caratteristici per il nostro successo. Personale specializzato,
+	tecnologie all'avanguardia, capillarità territoriale e un'ampia gamma
+	di servizi nazionali sono la garanzia che qualunque sia l'esigenza dei
+	nostri clienti, noi possiamo soddisfarla. P.M. INFORMATICA DI PIETRO
+	MONDIA-VIA VERONA 1- 37001 CALMASINO DI BARDOLINO (VR) C.F.
+	MNDPTR93P24B202D- P.IVA 04263730238 mail info@pminformaticashop.com
+	TEL. 045/7236851</div>
