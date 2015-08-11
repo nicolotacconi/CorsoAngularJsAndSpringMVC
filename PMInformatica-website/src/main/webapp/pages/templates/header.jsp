@@ -49,7 +49,8 @@
 	src="${pageContext.request.contextPath}/pages/Prenotazione/PrenotazioneService.js"></script>
 
 <!-- JQUERY -->
-
+<script
+	src="${pageContext.request.contextPath}/webjars/jquery/1.11.1/jquery.min.js"></script>
 
 <!-- INCLUDO GROWL -->
 <link

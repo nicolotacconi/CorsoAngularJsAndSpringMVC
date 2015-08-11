@@ -50,14 +50,14 @@
 }
 
 .servizi-colonna-img {
-	width: 2%;
-	padding-right: 1cm;
+	width: 20%;
+	padding-right: 0.5cm;
 	padding-left: 1cm;
 	padding-bottom: 0.5cm;
 }
 
 .servizi-colonna-testo {
-	width: 48%;
+	width: 80%;
 	text-align: justify;
 	padding-bottom: 0.5cm;
 }
@@ -170,10 +170,17 @@ div#footer {
 
 .carousel-control.right {
 	right: 0;
-	left: auto
-	background-color: white;
+	left: auto background-color:    white;
 }
 
 .carousel-indicators li {
-    display: none;
+	display: none;
+}
+
+.titoloPagina {
+	color: rgb(242, 148, 0);
+}
+
+.clickable {
+	cursor: pointer;
 }

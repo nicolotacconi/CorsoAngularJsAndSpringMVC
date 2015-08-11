@@ -15,6 +15,26 @@ pmInformaticaWebSiteAngular.config([ 'growlProvider', function(growlProvider) {
 	});
 } ]);
 
+pmInformaticaWebSiteAngular.directive('scrollToItem', function() {
+	return {
+		restrict : 'A',
+		scope : {
+			scrollTo : "@"
+		},
+		link : function(scope, $elm, attr) {
+
+			$elm.on('click', function() {
+				var positionToScroll = $(scope.scrollTo).position().top
+						- $('#tableToScroll').position().top;
+
+				$('html,body').animate({
+					scrollTop : positionToScroll
+				}, "slow");
+			});
+		}
+	}
+})
+
 pmInformaticaWebSiteAngular.config([
 		'$routeProvider',
 		function($routeProvider) {
@@ -55,6 +75,6 @@ pmInformaticaWebSiteAngular.config([
 						templateUrl : PM_INFORMATICA_WEBSITE.contextPath
 								+ 'pages/Contenuti/Contenuti.jsp'
 					}).otherwise({
-						redirectTo: "/home"
-					})
+				redirectTo : "/home"
+			})
 		} ]);
