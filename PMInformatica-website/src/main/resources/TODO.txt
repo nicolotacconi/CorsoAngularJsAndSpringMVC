@@ -1,7 +1,6 @@
 STEP 1
 - Inserire il link di linkedin
 - Capire cosa mettere nella home (inserire anche il link alla home nella navbar)
-- Rendere il logo un link
 - Sistemare in modo carino la pagina dei servizi e capire se ne servono altri
 - Spostare il login in un controller MVC in quanto così non è sicuro
 - Capire perchè quando apro il sito non funziona

@@ -54,5 +54,7 @@ pmInformaticaWebSiteAngular.config([
 					{
 						templateUrl : PM_INFORMATICA_WEBSITE.contextPath
 								+ 'pages/Contenuti/Contenuti.jsp'
+					}).otherwise({
+						redirectTo: "/home"
 					})
 		} ]);

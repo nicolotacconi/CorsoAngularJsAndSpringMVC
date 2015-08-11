@@ -40,9 +40,6 @@
 	<mvc:resources mapping="/webjars/**"
 		location="classpath:/META-INF/resources/webjars/" />
 
-	<mvc:view-controller path="/" view-name="Home" />
-
-
 	<bean
 		class="org.springframework.web.servlet.view.ContentNegotiatingViewResolver">
 

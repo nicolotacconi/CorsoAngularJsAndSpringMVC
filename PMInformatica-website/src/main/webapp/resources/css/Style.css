@@ -36,28 +36,28 @@
 	height: 50px;
 	padding: 15px 15px;
 	font-size: 18px;
-	line-height: 150%;
+	vertical-align: middle;
 	color: white;
 }
 
 .navbar-brand-logo {
 	float: left;
-	height: 40px;
+	height: 50px;
 	padding: 2px 2px;
-	width: 9%;
-	height: 9%;
-	margin-right: 5%
+	width: 100px;
+	margin-right: 2%;
+	margin-left: 2%
 }
 
 .servizi-colonna-img {
-	width: 10%;
+	width: 2%;
 	padding-right: 1cm;
 	padding-left: 1cm;
 	padding-bottom: 0.5cm;
 }
 
 .servizi-colonna-testo {
-	width: 40%;
+	width: 48%;
 	text-align: justify;
 	padding-bottom: 0.5cm;
 }
@@ -96,6 +96,7 @@ input:focus,textarea:focus,.focus {
 	width: 60%;
 	text-align: right;
 	margin-right: 150px;
+	vertical-align: middle;
 }
 
 .div-cell-text {
@@ -126,6 +127,7 @@ div#footer {
 	background-color: rgb(242, 148, 0);
 	color: white;
 	padding-bottom: 2em;
+	vertical-align: middle;;
 }
 
 .marginipagina {
@@ -164,4 +166,14 @@ div#footer {
 .cell-offerte {
 	padding-right: 20px;
 	padding-bottom: 30px
+}
+
+.carousel-control.right {
+	right: 0;
+	left: auto
+	background-color: white;
+}
+
+.carousel-indicators li {
+    display: none;
 }

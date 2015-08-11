@@ -6,8 +6,8 @@
 		ng-controller="MenuController">
 
 		<div class="navbar-header">
-			<img class="navbar-brand-logo"
-				src="../../resources/images/logo_pm_informatica.png"> <a
+			<a href="#/home"> <img class="navbar-brand-logo"
+				src="../../resources/images/logo_pm_informatica.png"></a> <a
 				class="navbar-brand" href="#/servizi">Servizi</a> <a
 				class="navbar-brand" href="#/contatti">Contatti</a> <a
 				class="navbar-brand" href="#/prenotazione">Prenotazione</a> <a
