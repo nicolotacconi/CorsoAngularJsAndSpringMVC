@@ -3,6 +3,9 @@ package com.pminformatica.website.mail;
 import java.io.StringWriter;
 import java.util.ArrayList;
 
+import javax.mail.MessagingException;
+import javax.mail.internet.MimeMessage;
+
 import org.apache.velocity.Template;
 import org.apache.velocity.VelocityContext;
 import org.apache.velocity.app.VelocityEngine;
@@ -12,9 +15,11 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.mail.SimpleMailMessage;
 import org.springframework.mail.javamail.JavaMailSender;
 import org.springframework.mail.javamail.JavaMailSenderImpl;
+import org.springframework.mail.javamail.MimeMessageHelper;
 import org.springframework.stereotype.Component;
 import org.springframework.stereotype.Service;
 
+import com.pminformatica.website.date.DateUtils;
 import com.pminformatica.website.dto.Prenotazione;
 import com.pminformatica.website.exception.MailSenderException;
 
@@ -40,22 +45,29 @@ public class SendMailService {
 	}
 
 	private void inviaRichiestaPrenotazione(Prenotazione prenotazione,
-			String testoEmail) {
+			String testoEmail) throws MessagingException {
 
-		message.setSubject("PRENOTAZIONE APPUNTAMENTO DA "
+		MimeMessage mimeMessage = javaMailSender.createMimeMessage();
+		MimeMessageHelper helper = new MimeMessageHelper(mimeMessage, true);
+
+		helper.setText(testoEmail, true);
+		helper.setFrom(message.getFrom());
+		helper.setTo(message.getTo());
+
+		helper.setSubject("PRENOTAZIONE APPUNTAMENTO DA "
 				+ prenotazione.getCognome() + " " + prenotazione.getNome());
 
-		message.setText(testoEmail);
 
-		javaMailSender.send(message);
+		javaMailSender.send(mimeMessage);
 	}
 
 	private String creaTestoEmail(Prenotazione prenotazione) throws Exception {
 
 		VelocityEngine engine = new VelocityEngine();
-		engine.setProperty(RuntimeConstants.RESOURCE_LOADER, "classpath"); 
-		engine.setProperty("classpath.resource.loader.class", ClasspathResourceLoader.class.getName());
-		//engine.init();
+		engine.setProperty(RuntimeConstants.RESOURCE_LOADER, "classpath");
+		engine.setProperty("classpath.resource.loader.class",
+				ClasspathResourceLoader.class.getName());
+		// engine.init();
 		Template t = engine.getTemplate(mailTemplate);
 
 		VelocityContext context = new VelocityContext();
@@ -63,13 +75,13 @@ public class SendMailService {
 		context.put("cognome", prenotazione.getCognome());
 		context.put("numeroTelefono", prenotazione.getNumeroTelefono());
 		context.put("email", prenotazione.getEmail());
-		context.put("data", prenotazione.getData());
-		context.put("ora", prenotazione.getOra());
-
+		context.put("data",
+				DateUtils.toString(prenotazione.getData(), "dd/MM/yyyy"));
+		context.put("ora", DateUtils.toString(prenotazione.getOra(), "HH:mm"));
 
 		StringWriter writer = new StringWriter();
 		t.merge(context, writer);
-		
+
 		return writer.toString();
 	}
 
