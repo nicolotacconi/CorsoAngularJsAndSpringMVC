@@ -16,18 +16,25 @@
 	<context:component-scan base-package="com.pminformatica.website" />
 
 	<bean id="mailMessageSender" class="com.pminformatica.website.mail.SendMailService">
-		<property name="mailTemplate"
-			value="src/main/resources/template/emailPrenotazione.vm" />
+		<property name="mailTemplate" value="template/emailPrenotazione.vm" />
 		<property name="javaMailSender">
 			<bean class="org.springframework.mail.javamail.JavaMailSenderImpl">
-				<property name="host" value="VIP-SMTP-PROD.GRUPPOARCA.IT" />
-				<property name="port" value="25" />
+				<property name="host" value="smtp.gmail.com" />
+				<property name="port" value="587" />
+				<property name="username" value="gestioneapplicazioniarca@gmail.com" />
+				<property name="password" value="gigimagic" />
+				<property name="javaMailProperties">
+					<props>
+						<prop key="mail.smtp.auth">true</prop>
+						<prop key="mail.smtp.starttls.enable">true</prop>
+					</props>
+				</property>
 			</bean>
 		</property>
 		<property name="message">
 			<bean class="org.springframework.mail.SimpleMailMessage">
-				<property name="from" value="giuseppe.giordano@arcavita.it" />
-				<property name="to" value="giuseppe.giordano@arcavita.it" />
+				<property name="from" value="gestioneapplicazioniarca@gmail.com" />
+				<property name="to" value="giuseppe.giordano1992@gmail.com" />
 			</bean>
 		</property>
 	</bean>
