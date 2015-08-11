@@ -10,7 +10,7 @@ STEP 1
 - Fai sito mobile
 
 STEP 2
-- Capire dove salvare le immagini e le offerte
+- Capire dove salvare le immagini e le offerte (Database)
 - Amministrazione: contenuti
 	- fare una pagina per inserire/eliminare immagini
 	- fare una pagina per inserire/eliminare offerte

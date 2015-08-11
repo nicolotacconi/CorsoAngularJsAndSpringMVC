@@ -10,7 +10,7 @@
 				scroll-to="#assistenzaTecnica">Assistenza tecnica</a></li>
 			<li><a class="clickable" scroll-to-item
 				scroll-to="#configurazionePc">Configurazione PC</a></li>
-			<li><a class="clickable" ng-click="scrollToId('pcAssemblato')">PC
+			<li><a class="clickable" scroll-to-item scroll-to="#pcAssemblato">PC
 					su misura</a></li>
 			<li><a class="clickable" scroll-to-item scroll-to="#virus">Rimozione
 					Virus e Malware</a></li>
