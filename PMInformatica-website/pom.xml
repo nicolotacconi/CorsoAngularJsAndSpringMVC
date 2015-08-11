@@ -5,7 +5,7 @@
 	<groupId>com.pminformatica.website</groupId>
 	<artifactId>PMInformatica-website</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<packaging>jar</packaging>
+	<packaging>war</packaging>
 
 	<name>PMInformatica-website</name>
 	<url>http://maven.apache.org</url>
