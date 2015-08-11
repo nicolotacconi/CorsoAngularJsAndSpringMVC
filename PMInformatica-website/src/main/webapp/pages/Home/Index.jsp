@@ -8,11 +8,11 @@
 </head>
 
 
-<body style="padding-top: 6%;">
+<body ng-controller="DeviceController" ng-init="isMobile()">
 
 	<jsp:include page="Menu.jsp" />
 
-	<div id="container">
+	<div ng-class="containerClass">
 
 		<table class="marginipagina">
 			<tr>

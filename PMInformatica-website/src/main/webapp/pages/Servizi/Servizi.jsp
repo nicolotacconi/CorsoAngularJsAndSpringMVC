@@ -24,7 +24,7 @@
 		<table style="margin-top: 0.5cm;" id="tableToScroll">
 
 			<tr id="ecommerce">
-				<td class="servizi-colonna-img"><img alt="Sito e-commerce"
+				<td ng-if="!isMobileDevice" class="servizi-colonna-img"><img alt="Sito e-commerce"
 					src="../../resources/images/ecommerce.jpg"></td>
 				<td class="servizi-colonna-testo"><b>Sito e-commerce:</b>
 					Forniamo un sito e-commerce per far arrivare i prodotti
@@ -34,7 +34,7 @@
 
 			<tr id="schermi">
 
-				<td class="servizi-colonna-img"><img alt="Riparazione schermi"
+				<td ng-if="!isMobileDevice" class="servizi-colonna-img"><img alt="Riparazione schermi"
 					src="../../resources/images/iphone_schermo_rotto.jpg"></td>
 				<td class="servizi-colonna-testo"><b>Riparazione Schermi:</b>
 					Ripariamo gli schermi di smartphone e tablet di qualsiasi marca e
@@ -44,7 +44,7 @@
 			</tr>
 
 			<tr id="assistenzaTecnica">
-				<td class="servizi-colonna-img"><img alt="Assistenza Tecnica"
+				<td ng-if="!isMobileDevice" class="servizi-colonna-img"><img alt="Assistenza Tecnica"
 					src="../../resources/images/assistenza_tecnica.jpg"></td>
 
 				<td class="servizi-colonna-testo"><b>Servizi Assistenza
@@ -59,7 +59,7 @@
 			</tr>
 
 			<tr id="configurazionePc">
-				<td class="servizi-colonna-img"><img alt="Configurazione pc"
+				<td ng-if="!isMobileDevice" class="servizi-colonna-img"><img alt="Configurazione pc"
 					src="../../resources/images/configurazione_pc.jpg"></td>
 				<td class="servizi-colonna-testo"><b>Configurazione PC:</b>
 					Configurazioni iniziali su computer, notebook, smartphone e tablet.
@@ -73,7 +73,7 @@
 			</tr>
 
 			<tr id="pcAssemblato">
-				<td class="servizi-colonna-img"><img alt="PC su misura"
+				<td ng-if="!isMobileDevice" class="servizi-colonna-img"><img alt="PC su misura"
 					src="../../resources/images/pc_assemblato.jpg"></td>
 				<td class="servizi-colonna-testo"><b>Pc su misura:</b>
 					Costruiamo il tuo pc su misura come lo vuoi tu. Configuriamo Pc
@@ -86,7 +86,7 @@
 			</tr>
 
 			<tr id="virus">
-				<td class="servizi-colonna-img"><img alt="Rimozione virus"
+				<td ng-if="!isMobileDevice" class="servizi-colonna-img"><img alt="Rimozione virus"
 					src="../../resources/images/rimozione_virus.jpg"></td>
 				<td class="servizi-colonna-testo"><b>Rimozione Virus e
 						Malware:</b> Rimozione virus di qualsiasi genere. Installazione
@@ -98,7 +98,7 @@
 			</tr>
 
 			<tr id="toner">
-				<td class="servizi-colonna-img"><img alt="Rigenerazione toner"
+				<td ng-if="!isMobileDevice" class="servizi-colonna-img"><img alt="Rigenerazione toner"
 					src="../../resources/images/toner.jpg"></td>
 				<td class="servizi-colonna-testo"><b>Rigenerazione Toner:</b>
 					Rigeneriamo all'interno del nostro laboratorio circa 80% delle
@@ -113,7 +113,7 @@
 			</tr>
 
 			<tr id="lan">
-				<td class="servizi-colonna-img"><img alt="reti LAN e WAN"
+				<td ng-if="!isMobileDevice" class="servizi-colonna-img"><img alt="reti LAN e WAN"
 					src="../../resources/images/rete_lan_mid.jpg"></td>
 				<td class="servizi-colonna-testo"><b>Installazione/Configurazione
 						reti LAN o WIRELESS:</b> Creazione e configurazione di reti di tipo
@@ -121,7 +121,7 @@
 			</tr>
 
 			<tr id="antifurto">
-				<td class="servizi-colonna-img"><img alt="Sistemi di antifurto"
+				<td ng-if="!isMobileDevice" class="servizi-colonna-img"><img alt="Sistemi di antifurto"
 					src="../../resources/images/antif.png"></td>
 				<td class="servizi-colonna-testo"><b>Installazione sistemi
 						di antifurto:</b> Installiamo servizi di antifurto e videosorveglianza

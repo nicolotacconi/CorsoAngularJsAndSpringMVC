@@ -22,7 +22,7 @@ public class PrenotazioneController {
 	@RequestMapping(value = "/prenotaAppuntamento", method = RequestMethod.POST)
 	@ResponseBody
 	public void prenotaAppuntamento(@RequestBody Prenotazione prenotazione) {
-		// sendMailService.sendMail(prenotazione);
+		sendMailService.sendMail(prenotazione);
 
 	}
 

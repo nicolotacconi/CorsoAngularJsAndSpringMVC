@@ -3,6 +3,17 @@
 	<table width="100%">
 		<tr>
 			<td>
+				<div ng-if="isMobileDevice" class="div-table">
+					<div class="div-row-contatti">
+						<img alt="logo" style="background-color: white; margin-top: 1cm;"
+							src="../../resources/images/logo_pm_informatica.png"> <label><b>P.M.
+								informatica di Pietro Mondia</b> </label><br> <label>Via
+							Verona, 1</label><br> <label>37011 Calmasino di Bardolino
+							(VR)</label><br>
+					</div>
+					<br>
+				</div>
+
 				<div>
 					<b>Lunedì - Venerdì</b> 9:00-13:00 15:00-19:00 <br> <b>Sabato</b>
 					9:00-12:00<br> <b>Domenica</b> chiuso
@@ -98,7 +109,7 @@
 					</div>
 					<br>
 				</div>
-				
+
 				<div class="div-table">
 					<div class="div-row-contatti">
 						<div class="div-cell-img-contatti">
@@ -132,8 +143,8 @@
 
 			</td>
 
-			<td style="padding-left: 1cm"><img alt="logo"
-				style="background-color: white; margin-top: 1cm;"
+			<td ng-if="!isMobileDevice" style="padding-left: 1cm"><img
+				alt="logo" style="background-color: white; margin-top: 1cm;"
 				src="../../resources/images/logo_pm_informatica.png">
 				<div>
 					<label><b>P.M. informatica di Pietro Mondia</b> </label><br> <label>Via
@@ -142,7 +153,7 @@
 
 				</div>
 
-				<div style="margin-top: 0.5cm">
+				<div ng-if="!isMobileDevice" style="margin-top: 0.5cm">
 					<map center="45.522058, 10.752821" zoom="16">
 						<info-window id="1" position="45.522058, 10.752821" visible="true">
 						<div ng-non-bindable="">

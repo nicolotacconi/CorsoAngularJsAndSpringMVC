@@ -63,7 +63,7 @@
 
 				</td>
 
-				<td style="width: 40%;"><span>Prenota un appuntamento in
+				<td ng-if="!isMobileDevice" style="width: 40%;"><span>Prenota un appuntamento in
 						negozio, il nostro staff è sempre disponibile per qualsiasi tipo
 						di consulenza. La prenotazione avrà valore solo dopo una nostra
 						conferma telefonica o via email. Verificare la correttezza dei

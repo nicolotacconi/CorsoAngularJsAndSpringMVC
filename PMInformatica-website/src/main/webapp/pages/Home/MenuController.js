@@ -5,7 +5,7 @@ angular.module('pmInformaticaWebSiteAngular.controllers')
 		  		function($scope, $location, $modal, loginService,growl) {
 			
 			$scope.isLogged = loginService.isLogged();
-			
+						
 			$scope.openModal = function() {
 
 				var modalInstance = $modal.open({
@@ -39,5 +39,5 @@ angular.module('pmInformaticaWebSiteAngular.controllers')
 			$scope.$watch(loginService.isLogged, function() {
 		    	$scope.isLogged = loginService.isLogged();
 			});
-			
+						
 } ]);

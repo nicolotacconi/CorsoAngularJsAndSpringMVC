@@ -6,6 +6,8 @@ STEP 1
 - Capire perchè quando apro il sito non funziona
 - Fare una pagina di privacy
 - Modificare l'invio della mail inserendo i parametri del suo server mail
+- Redirect mia applicazione
+- Fai sito mobile
 
 STEP 2
 - Capire dove salvare le immagini e le offerte
