@@ -1,13 +1,14 @@
 STEP 1
+- Problema date in fase di prenotazione
 - Inserire il link di linkedin
-- Capire cosa mettere nella home (inserire anche il link alla home nella navbar)
+- Capire cosa mettere nella home
 - Sistemare in modo carino la pagina dei servizi e capire se ne servono altri
 - Spostare il login in un controller MVC in quanto così non è sicuro
 - Capire perchè quando apro il sito non funziona
 - Fare una pagina di privacy
 - Modificare l'invio della mail inserendo i parametri del suo server mail
 - Redirect mia applicazione
-- Fai sito mobile
+- Migliora parte mobile
 
 STEP 2
 - Capire dove salvare le immagini e le offerte (Database)
@@ -16,8 +17,4 @@ STEP 2
 	- fare una pagina per inserire/eliminare offerte
 - Fare una pagina che visualizzi le immagini in modo carino
 - Fare una pagina che visualizzi in modo carino le offerte
-
-STEP 3
-
-- Guarda come aggiungere analytics
 

@@ -1,5 +1,7 @@
 <div>
 	<br> <br>
+	<h1 class="titoloPagina" id="indexServizi">Prenota un appuntamento</h1>
+<br><br>
 	<form name="formPrenotazione" ng-submit="prenotaAppuntamento()"
 		ng-controller="PrenotazioneController">
 
@@ -49,9 +51,9 @@
 					</div>
 
 					<div class="form-group">
-						<label>Ora* (dalle 9:00 alle 19:00)</label><input id="ora" type="time"
-							class="form-control input-sm" ng-model="prenotazione.ora"
-							min="09:00:00" max="19:00:00"
+						<label>Ora* (dalle 9:00 alle 19:00)</label><input id="ora"
+							type="time" class="form-control input-sm"
+							ng-model="prenotazione.ora" min="09:00:00" max="19:00:00"
 							required /> </span>
 					</div>
 
@@ -63,11 +65,11 @@
 
 				</td>
 
-				<td ng-if="!isMobileDevice" style="width: 40%;"><span>Prenota un appuntamento in
-						negozio, il nostro staff è sempre disponibile per qualsiasi tipo
-						di consulenza. La prenotazione avrà valore solo dopo una nostra
-						conferma telefonica o via email. Verificare la correttezza dei
-						recapiti indicati</span></td>
+				<td ng-if="!isMobileDevice" style="width: 40%;"><span>Prenota
+						un appuntamento in negozio, il nostro staff è sempre disponibile
+						per qualsiasi tipo di consulenza. La prenotazione avrà valore solo
+						dopo una nostra conferma telefonica o via email. Verificare la
+						correttezza dei recapiti indicati</span></td>
 				<td style="width: 20%;"></td>
 			</tr>
 

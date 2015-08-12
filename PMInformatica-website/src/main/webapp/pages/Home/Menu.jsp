@@ -27,7 +27,7 @@
 
 
 				<ul class="dropdown-menu">
-					<li><img style="width: 100%"
+					<li><img style="width: 100%; padding: 2mm 2mm"
 						src="../../resources/images/logo_pm_informatica.png"></li>
 					<br>
 					<li><a href="#/home">Home</a></li>

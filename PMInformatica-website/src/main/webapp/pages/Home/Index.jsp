@@ -12,7 +12,7 @@
 
 	<jsp:include page="Menu.jsp" />
 
-	<div class="container">
+	<div ng-class="containerClass">
 
 		<table class="marginipagina">
 			<tr>

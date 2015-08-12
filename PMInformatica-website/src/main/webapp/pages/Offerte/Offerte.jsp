@@ -1,5 +1,5 @@
 <div>
-	Qui puoi trovare le ultime offerte. <br> <br>
+	<h1 class="titoloPagina" id="indexServizi">Le nostre ultime offerte</h1><br> <br>
 	<div ng-controller="OfferteController">
 
 

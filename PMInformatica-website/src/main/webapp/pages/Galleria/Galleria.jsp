@@ -1,5 +1,7 @@
 <div>
-	Qui puoi trovare i nostri ultimi lavori. <br> <br>
+	
+
+	<h1 class="titoloPagina" id="indexServizi">I nostri ultimi lavori</h1><br> <br>
 
 	<div ng-controller="GalleriaController">
 		<carousel interval="myInterval"> <slide
