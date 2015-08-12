@@ -5,17 +5,14 @@ angular.module('pmInformaticaWebSiteAngular.controllers')
 			
 			
 			$scope.isMobileDevice ;
-			$scope.containerClass ;
 						
 			$scope.isMobile = function(){
 				
 				if( isMobile.any() ){
 					$scope.isMobileDevice = true;
-					$scope.containerClass = "container-mobile";
 				}
 				else{
 					$scope.isMobileDevice = false;
-					$scope.containerClass = "container";
 				}
 			};
 			

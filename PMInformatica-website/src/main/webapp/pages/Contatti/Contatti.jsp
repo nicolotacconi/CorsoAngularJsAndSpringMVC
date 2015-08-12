@@ -6,7 +6,7 @@
 				<div ng-if="isMobileDevice" class="div-table">
 					<div class="div-row-contatti">
 						<img alt="logo" style="background-color: white; margin-top: 1cm;"
-							src="../../resources/images/logo_pm_informatica.png"> <label><b>P.M.
+							src="../../resources/images/logo_pm_informatica.png"><br> <label><b>P.M.
 								informatica di Pietro Mondia</b> </label><br> <label>Via
 							Verona, 1</label><br> <label>37011 Calmasino di Bardolino
 							(VR)</label><br>
