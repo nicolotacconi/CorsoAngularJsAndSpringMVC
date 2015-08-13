@@ -2,7 +2,6 @@ STEP 1
 - Inserire il link di linkedin
 - Capire cosa mettere nella home
 - Sistemare in modo carino la pagina dei servizi e capire se ne servono altri
-- Spostare il login in un controller MVC in quanto così non è sicuro
 - Capire perchè quando apro il sito non funziona
 - Modificare l'invio della mail inserendo i parametri del suo server mail
 - Redirect mia applicazione
