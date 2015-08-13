@@ -6,7 +6,7 @@
 			ng-if="!isMobileDevice">
 			<div class="navbar-header">
 				<a href="#/home"> <img class="navbar-brand-logo"
-					src="../../resources/images/logo_pm_informatica.png"></a> <a
+					src="../resources/images//logo_pm_informatica.png"></a> <a
 					class="navbar-brand" href="#/servizi">Servizi</a> <a
 					class="navbar-brand" href="#/contatti">Contatti</a> <a
 					class="navbar-brand" href="#/prenotazione">Prenotazione</a> <a
@@ -21,13 +21,13 @@
 			<div class="dropdown">
 				<button style="background-color: rgb(242, 148, 0);" id="close-image"
 					data-toggle="dropdown" type="button">
-					<img src="../../resources/images/menu_mobile_button.gif">
+					<img src="../resources/images/menu_mobile_button.gif">
 				</button>
 
 
 				<ul class="dropdown-menu">
 					<li><img style="width: 100%; padding: 2mm 2mm"
-						src="../../resources/images/logo_pm_informatica.png"></li>
+						src="../resources/images/logo_pm_informatica.png"></li>
 					<br>
 					<li><a href="#/home">Home</a></li>
 					<li><a href="#/servizi">Servizi</a></li>

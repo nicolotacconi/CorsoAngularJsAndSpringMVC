@@ -10,7 +10,7 @@ angular.module('pmInformaticaWebSiteAngular.controllers')
 
 				var modalInstance = $modal.open({
 					animation : true,
-					templateUrl : "../Login/popupLogin.jsp",
+					templateUrl : "Login/popupLogin.jsp",
 					controller : 'LoginController',
 					 resolve: {
 						 // serve per il form dell'utente

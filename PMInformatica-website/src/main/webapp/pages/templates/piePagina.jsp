@@ -9,19 +9,19 @@
 		<div class="div-cell-img">
 			<span><a href="mailto:infopminformatica@gmail.com"><img
 					alt="mail"
-					src="../../resources/images/glyphicons_free/glyphicons_social/png/social-40-e-mail.png"></a></span>
+					src="../resources/imagesglyphicons_free/glyphicons_social/png/social-40-e-mail.png"></a></span>
 			<span><a href="https://www.facebook.com/pages/PM-Informatica/"
 				target="_blank"> <img alt="fb"
-					src="../../resources/images/glyphicons_free/glyphicons_social/png/social-31-facebook.png"></a></span>
+					src="../resources/imagesglyphicons_free/glyphicons_social/png/social-31-facebook.png"></a></span>
 			<span><a href="http://pminformaticashop.com/" target="_blank">
 					<img alt="fb"
-					src="../../resources/images/glyphicons_free/glyphicons/png/glyphicons-203-shopping-cart.png">
+					src="../resources/imagesglyphicons_free/glyphicons/png/glyphicons-203-shopping-cart.png">
 			</a></span>
 
 		</div>
 
 	</div>
-	<div class="div-row" >
+	<div class="div-row">
 		<hr class="hr-footer">
 		<a style="color: white;" target="_blank"
 			href="http://pminformaticashop.com/content/3-termini-e-condizioni-di-uso"

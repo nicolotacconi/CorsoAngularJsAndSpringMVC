@@ -4,17 +4,14 @@
 <html ng-app="pmInformaticaWebSiteAngular">
 <head>
 <title>Pm Informatica</title>
-<jsp:include page="../templates/header.jsp" />
+<jsp:include page="templates/header.jsp" />
 </head>
 
 
 <body onclick="removeMe();" ng-controller="DeviceController"
 	ng-init="isMobile()">
 
-
-
-
-	<jsp:include page="Menu.jsp" />
+	<jsp:include page="templates/Menu.jsp" />
 	<div id="bannerCoockie">
 
 		<div ng-if="!isMobileDevice" id="idea_cookie" class="content_block"
@@ -57,7 +54,7 @@
 
 
 		<div id="footer">
-			<jsp:include page="piePagina.jsp" />
+			<jsp:include page="templates/piePagina.jsp" />
 		</div>
 </body>
 </html>
