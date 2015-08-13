@@ -17,6 +17,14 @@
 					<img alt="fb"
 					src="../../resources/images/glyphicons_free/glyphicons/png/glyphicons-203-shopping-cart.png">
 			</a></span>
+
 		</div>
+
+	</div>
+	<div class="div-row" >
+		<hr class="hr-footer">
+		<a style="color: white;" target="_blank"
+			href="http://pminformaticashop.com/content/3-termini-e-condizioni-di-uso"
+			title="Termini e condizioni d'uso"> Termini e condizioni d'uso</a>
 	</div>
 </div>

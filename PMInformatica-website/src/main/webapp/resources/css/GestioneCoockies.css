@@ -1,0 +1,19 @@
+.rtex {
+	margin-top: 5px;
+	color: #fff !important;
+}
+
+.content_block {
+	text-align: center;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 120px;
+	padding-top: 15px;
+	background-color: rgba(67, 67, 67, 0.9);
+	border-top: 3px solid white;
+	z-index: 169999999;
+	background-color: rgba(67, 67, 67, 0.9);
+	background-color: rgba(67, 67, 67, 0.9);
+	vertical-align: middle;
+}

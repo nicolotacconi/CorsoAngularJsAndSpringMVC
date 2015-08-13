@@ -80,3 +80,11 @@
 <script src="//maps.google.com/maps/api/js"></script>
 <script
 	src="${pageContext.request.contextPath}/resources/js/utils/googleMaps.js"></script>
+
+
+<!-- COOCKIES -->
+<link
+	href="${pageContext.request.contextPath}/resources/css/GestioneCoockies.css"
+	rel="stylesheet">
+<script
+	src="${pageContext.request.contextPath}/resources/js/utils/GestioneCoockies.js"></script>

@@ -1,5 +1,5 @@
 <div>
-	<br> <br>
+	
 	<h1 class="titoloPagina" id="indexServizi">Prenota un appuntamento</h1>
 <br><br>
 	<form name="formPrenotazione" ng-submit="prenotaAppuntamento()"

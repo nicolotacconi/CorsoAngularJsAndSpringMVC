@@ -81,6 +81,17 @@ input:focus,textarea:focus,.focus {
 	cursor: pointer;
 }
 
+.richiedi-appuntamento-button {
+	height: 50px;
+	width: 200px;
+	background-color: rgb(242, 148, 0)	;
+	border-radius: 10px 10px 10px 10px;
+	border-color: rgb(0, 178, 232);
+	color: #ffffff;
+	display: inline-block;
+	cursor: pointer;
+}
+
 .div-table {
 	display: table;
 	width: 100%;
@@ -180,7 +191,7 @@ div#footer {
 
 .carousel-control.right {
 	right: 0;
-	left: auto background-color:             white;
+	left: auto background-color:              white;
 }
 
 .carousel-indicators li {
@@ -189,6 +200,11 @@ div#footer {
 
 .titoloPagina {
 	color: rgb(242, 148, 0);
+}
+
+.titoloPaginaHome {
+	color: rgb(242, 148, 0);
+	font-size: 26px;
 }
 
 .clickable {
@@ -208,8 +224,8 @@ div#footer {
 	font-size: 14px;
 	text-align: left;
 	list-style: none;
-	background-color: rgb(242, 148, 0); -webkit-background-clip :
-	padding-box;
+	background-color: rgb(242, 148, 0);
+	-webkit-background-clip: padding-box;
 	background-clip: padding-box;
 	border: 1px solid #ccc;
 	border: 1px solid rgba(0, 0, 0, .15);
@@ -229,4 +245,14 @@ div#footer {
 	white-space: nowrap;
 	padding: 8px 8px;
 	font-size: 18px;
+}
+
+.hr-footer { 
+    display: block;
+    margin-top: 0.2em;
+    margin-bottom: 0.2em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 1px;
 }

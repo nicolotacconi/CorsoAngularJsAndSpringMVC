@@ -67,7 +67,7 @@ public class SendMailService {
 		engine.setProperty(RuntimeConstants.RESOURCE_LOADER, "classpath");
 		engine.setProperty("classpath.resource.loader.class",
 				ClasspathResourceLoader.class.getName());
-		// engine.init();
+
 		Template t = engine.getTemplate(mailTemplate);
 
 		VelocityContext context = new VelocityContext();
