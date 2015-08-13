@@ -11,8 +11,8 @@
 					class="navbar-brand" href="#/contatti">Contatti</a> <a
 					class="navbar-brand" href="#/prenotazione">Prenotazione</a> <a
 					class="navbar-brand" href="#/offerte">Offerte</a> <a
-					href="#/contenuti" ng-if="isLogged">Contenuti</a> <a
-					class="navbar-brand" ng-if="!isLogged" ng-click="openModal()">Login</a>
+					href="#/contenuti" class="navbar-brand" ng-if="isLogged">Contenuti</a>
+				<a class="navbar-brand" ng-if="!isLogged" ng-click="openModal()">Login</a>
 				<a class="navbar-brand" ng-if="isLogged" ng-click="logout()">Logout</a>
 			</div>
 		</div>

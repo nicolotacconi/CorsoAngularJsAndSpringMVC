@@ -15,7 +15,7 @@ angular.module('pmInformaticaWebSiteAngular.controllers')
 					 resolve: {
 						 // serve per il form dell'utente
 						 utente: function () {
-							 var utente = {user: '', password: ''};
+							 var utente = {username: '', password: ''};
 					         return utente;
 					     } 
 					 }

@@ -6,16 +6,8 @@ angular.module('pmInformaticaWebSiteAngular.services')
 
 	return {
 		
-		login : function(utente, password) {
-			
-			if (utente != 'pminformatica' || password != 'pswPmInformatica#2015') {
-				isLogged = false;
-				return false;
-			}
-			else{
-				isLogged = true;
-				return true;
-			}
+		login : function(utente) {
+			return $http.post(PM_INFORMATICA_WEBSITE.contextPath + '/checkUserPass', utente);
 		},
 	
 		logout: function() {
@@ -24,8 +16,11 @@ angular.module('pmInformaticaWebSiteAngular.services')
 		
 		isLogged: function() {
 			return isLogged;
+		},
+		
+		setLogged: function(boolean) {
+			isLogged = boolean;
 		}
-
 	};
 
 } ]);

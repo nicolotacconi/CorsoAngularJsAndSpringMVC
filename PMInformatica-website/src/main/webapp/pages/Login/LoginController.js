@@ -6,22 +6,16 @@ angular.module('pmInformaticaWebSiteAngular.controllers')
 	$scope.utente = utente;
 	
 	$scope.login = function() {
-						
-		var deferred = $q.defer();
-		var promise = deferred.promise;
-		 
-		promise
-		  .then(function() {
-			  // chiamo il servizio
-			 return loginService.login($scope.utente.user, $scope.utente.password);
-		  })
-		  .then(function(credezialiOk) {
-			  // chiudo il popup dando l'ok o meno del login
-		      $modalInstance.close(credezialiOk);
-		   });
-		 
-		deferred.resolve();
-	
+			
+		
+		loginService.login($scope.utente).success(function(esitoLogin) {
+			 loginService.setLogged(esitoLogin);
+			 $modalInstance.close(esitoLogin);
+			return esitoLogin;
+		}).error(function(error) {
+			return false;
+		});
+			
 	    
 		
 	};

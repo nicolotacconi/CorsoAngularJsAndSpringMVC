@@ -1,7 +1,6 @@
 package com.pminformatica.website.mail;
 
 import java.io.StringWriter;
-import java.util.ArrayList;
 
 import javax.mail.MessagingException;
 import javax.mail.internet.MimeMessage;
@@ -11,13 +10,9 @@ import org.apache.velocity.VelocityContext;
 import org.apache.velocity.app.VelocityEngine;
 import org.apache.velocity.runtime.RuntimeConstants;
 import org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.mail.SimpleMailMessage;
 import org.springframework.mail.javamail.JavaMailSender;
-import org.springframework.mail.javamail.JavaMailSenderImpl;
 import org.springframework.mail.javamail.MimeMessageHelper;
-import org.springframework.stereotype.Component;
-import org.springframework.stereotype.Service;
 
 import com.pminformatica.website.date.DateUtils;
 import com.pminformatica.website.dto.Prenotazione;

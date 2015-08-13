@@ -17,7 +17,7 @@
 							<div class="form-group row">
 								<label class="col-md-3">Username: </label> <input type="text"
 									name="username" class="form-control input-sm"
-									ng-model="utente.user" required> <label
+									ng-model="utente.username" required> <label
 									class="col-md-3">Password: </label> <input type="password"
 									name="password" class="form-control input-sm"
 									ng-model="utente.password" required>
