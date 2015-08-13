@@ -28,4 +28,5 @@ angular.module('pmInformaticaWebSiteAngular.controllers')
 		"title" : "LAN e WAN",
 		"path" : "../../resources/images/serviziHome/LAN_WAN.jpg"
 	} ];
+		
 } ]);

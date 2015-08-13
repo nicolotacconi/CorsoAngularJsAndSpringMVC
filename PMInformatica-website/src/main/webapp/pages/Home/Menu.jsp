@@ -10,7 +10,6 @@
 					class="navbar-brand" href="#/servizi">Servizi</a> <a
 					class="navbar-brand" href="#/contatti">Contatti</a> <a
 					class="navbar-brand" href="#/prenotazione">Prenotazione</a> <a
-					class="navbar-brand" href="#/galleria">Galleria</a><a
 					class="navbar-brand" href="#/offerte">Offerte</a> <a
 					href="#/contenuti" ng-if="isLogged">Contenuti</a> <a
 					class="navbar-brand" ng-if="!isLogged" ng-click="openModal()">Login</a>

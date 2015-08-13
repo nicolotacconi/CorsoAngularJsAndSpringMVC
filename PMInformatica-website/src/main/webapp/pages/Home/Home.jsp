@@ -6,7 +6,8 @@
 	<div class="div-table">
 		<div class="div-row">
 
-			<div class="col-md-6" style="vertical-align: middle;">
+			<div class="col-md-6"
+				style="padding-top: 3%; vertical-align: middle;">
 
 				<b>P.M. INFORMATICA</b> è una piccola azienda fondata nel 2014 da un
 				giovane imprenditore Pietro Mondia. Offre prodotti di ottima
@@ -46,6 +47,7 @@
 					<div class="col-md-10">
 						<b>Ampia gamma di servizi nazionali.</b>
 					</div>
+
 				</div>
 				<br>
 				<div class="div-row">
@@ -57,15 +59,27 @@
 				</div>
 
 			</div>
-			<div ng-if="!isMobileDevice" class="col-md-6">
-				<div ng-controller="HomeController">
+			<div class="col-md-5" ng-if="!isMobileDevice">
+				<div ng-controller="HomeController" style="width: 100%;">
 					<carousel interval="myInterval"> <slide
 						ng-repeat="slide in servizi" active="slide.active"> <img
-						ng-src="{{slide.path}}"
-						style="margin: auto; height: 100%; width: 100%"></slide></carousel>
+						ng-src="{{slide.path}}" style="margin: auto; height: 100%;"></slide></carousel>
 				</div>
+
 			</div>
 		</div>
+		<hr>
+		<div class="div-row" ng-if="!isMobileDevice">
+			<div class="col-md-5">
 
+				<h3 class="titoloPagina" id="indexServizi">I nostri ultimi
+					lavori</h3>
+				<div ng-controller="GalleriaController" style="width: 280x;">
+					<carousel interval="myInterval"> <slide
+						ng-repeat="slide in slides" active="slide.active"> <img
+						ng-src="{{slide.path}}" style="margin: auto; height: 280px;"></slide></carousel>
+				</div>
+
+			</div>
+		</div>
 	</div>
-</div>
