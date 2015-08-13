@@ -18,7 +18,7 @@
 
 				<div class="div-row">
 					<div class="col-md-1">
-						<img alt="Sito e-commerce" src="../../resources/images/Spunta.jpg">
+						<img alt="Sito e-commerce" src="../resources/images/Spunta.jpg">
 					</div>
 					<div class="col-md-10">
 						<b>Tempestività, puntualità.</b>
@@ -26,7 +26,7 @@
 				</div>
 				<div class="div-row">
 					<div class="col-md-1">
-						<img alt="Sito e-commerce" src="../../resources/images/Spunta.jpg">
+						<img alt="Sito e-commerce" src="../resources/images/Spunta.jpg">
 					</div>
 					<div class="col-md-10">
 						<b>Personale specializzato.</b>
@@ -34,7 +34,7 @@
 				</div>
 				<div class="div-row">
 					<div class="col-md-1">
-						<img alt="Sito e-commerce" src="../../resources/images/Spunta.jpg">
+						<img alt="Sito e-commerce" src="../resources/images/Spunta.jpg">
 					</div>
 					<div class="col-md-10">
 						<b>Tecnologie all'avanguardia.</b>
@@ -42,7 +42,7 @@
 				</div>
 				<div class="div-row">
 					<div class="col-md-1">
-						<img alt="Sito e-commerce" src="../../resources/images/Spunta.jpg">
+						<img alt="Sito e-commerce" src="../resources/images/Spunta.jpg">
 					</div>
 					<div class="col-md-10">
 						<b>Ampia gamma di servizi nazionali.</b>

@@ -25,7 +25,7 @@
 
 			<tr id="ecommerce">
 				<td ng-if="!isMobileDevice" class="servizi-colonna-img"><img alt="Sito e-commerce"
-					src="../../resources/images/ecommerce.jpg"></td>
+					src="../resources/images/ecommerce.jpg"></td>
 				<td class="servizi-colonna-testo"><b>Sito e-commerce:</b>
 					Forniamo un sito e-commerce per far arrivare i prodotti
 					direttamente nella vostra abitazione.</td>
@@ -35,7 +35,7 @@
 			<tr id="schermi">
 
 				<td ng-if="!isMobileDevice" class="servizi-colonna-img"><img alt="Riparazione schermi"
-					src="../../resources/images/iphone_schermo_rotto.jpg"></td>
+					src="../resources/images/iphone_schermo_rotto.jpg"></td>
 				<td class="servizi-colonna-testo"><b>Riparazione Schermi:</b>
 					Ripariamo gli schermi di smartphone e tablet di qualsiasi marca e
 					modello (Apple, Android, Windows Phone).</td>
@@ -45,7 +45,7 @@
 
 			<tr id="assistenzaTecnica">
 				<td ng-if="!isMobileDevice" class="servizi-colonna-img"><img alt="Assistenza Tecnica"
-					src="../../resources/images/assistenza_tecnica.jpg"></td>
+					src="../resources/images/assistenza_tecnica.jpg"></td>
 
 				<td class="servizi-colonna-testo"><b>Servizi Assistenza
 						Tecnica:</b> Ci occupiamo di assistenza e manutenzione di desktop,
@@ -60,7 +60,7 @@
 
 			<tr id="configurazionePc">
 				<td ng-if="!isMobileDevice" class="servizi-colonna-img"><img alt="Configurazione pc"
-					src="../../resources/images/configurazione_pc.jpg"></td>
+					src="../resources/images/configurazione_pc.jpg"></td>
 				<td class="servizi-colonna-testo"><b>Configurazione PC:</b>
 					Configurazioni iniziali su computer, notebook, smartphone e tablet.
 					Riportiamo il sistema operativo allo stato di fabbrica o lo
@@ -74,7 +74,7 @@
 
 			<tr id="pcAssemblato">
 				<td ng-if="!isMobileDevice" class="servizi-colonna-img"><img alt="PC su misura"
-					src="../../resources/images/pc_assemblato.jpg"></td>
+					src="../resources/images/pc_assemblato.jpg"></td>
 				<td class="servizi-colonna-testo"><b>Pc su misura:</b>
 					Costruiamo il tuo pc su misura come lo vuoi tu. Configuriamo Pc
 					Desktop personalizzati in base alle esigenze del cliente. Pc da
@@ -87,7 +87,7 @@
 
 			<tr id="virus">
 				<td ng-if="!isMobileDevice" class="servizi-colonna-img"><img alt="Rimozione virus"
-					src="../../resources/images/rimozione_virus.jpg"></td>
+					src="../resources/images/rimozione_virus.jpg"></td>
 				<td class="servizi-colonna-testo"><b>Rimozione Virus e
 						Malware:</b> Rimozione virus di qualsiasi genere. Installazione
 					Antivirus e ottimizzazione sistema operativo per inpedire la
@@ -99,7 +99,7 @@
 
 			<tr id="toner">
 				<td ng-if="!isMobileDevice" class="servizi-colonna-img"><img alt="Rigenerazione toner"
-					src="../../resources/images/toner.jpg"></td>
+					src="../resources/images/toner.jpg"></td>
 				<td class="servizi-colonna-testo"><b>Rigenerazione Toner:</b>
 					Rigeneriamo all'interno del nostro laboratorio circa 80% delle
 					cartucce inkjet e Laser delle varie marche come HP Canon Brother
@@ -114,7 +114,7 @@
 
 			<tr id="lan">
 				<td ng-if="!isMobileDevice" class="servizi-colonna-img"><img alt="reti LAN e WAN"
-					src="../../resources/images/rete_lan_mid.jpg"></td>
+					src="../resources/images/rete_lan_mid.jpg"></td>
 				<td class="servizi-colonna-testo"><b>Installazione/Configurazione
 						reti LAN o WIRELESS:</b> Creazione e configurazione di reti di tipo
 					LAN o WIRELESS con possibilià di condivisione di dispositivi.</td>
@@ -122,7 +122,7 @@
 
 			<tr id="antifurto">
 				<td ng-if="!isMobileDevice" class="servizi-colonna-img"><img alt="Sistemi di antifurto"
-					src="../../resources/images/antif.png"></td>
+					src="../resources/images/antif.png"></td>
 				<td class="servizi-colonna-testo"><b>Installazione sistemi
 						di antifurto:</b> Installiamo servizi di antifurto e videosorveglianza
 					per qualsiasi esigenza.</td>

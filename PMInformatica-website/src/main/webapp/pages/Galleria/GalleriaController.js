@@ -6,7 +6,7 @@ angular.module('pmInformaticaWebSiteAngular.controllers')
 	$scope.slides = [ {
 		"imageID" : 1,
 		"title" : "Shop",
-		"path" : "../../resources/images/shop.png"
+		"path" : "../resources/images/shop.png"
 	}, {
 		"imageID" : 2,
 		"title" : "Jellyfish",

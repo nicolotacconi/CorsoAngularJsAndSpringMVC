@@ -36,7 +36,7 @@
 <script type="text/javascript"
 	src="${pageContext.request.contextPath}/resources/js/app.js"></script>
 <script type="text/javascript"
-	src="${pageContext.request.contextPath}/pages/Home/MenuController.js"></script>
+	src="${pageContext.request.contextPath}/pages/templates/MenuController.js"></script>
 <script type="text/javascript"
 	src="${pageContext.request.contextPath}/pages/Login/LoginController.js"></script>
 <script type="text/javascript"
@@ -48,7 +48,7 @@
 <script type="text/javascript"
 	src="${pageContext.request.contextPath}/pages/Home/HomeController.js"></script>
 <script type="text/javascript"
-	src="${pageContext.request.contextPath}/pages/Home/DeviceController.js"></script>
+	src="${pageContext.request.contextPath}/pages/templates/DeviceController.js"></script>
 
 <!-- INCLUDO I SERVICE -->
 <script type="text/javascript"

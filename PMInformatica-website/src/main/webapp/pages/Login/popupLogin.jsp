@@ -6,7 +6,7 @@
 
 <div class="modal-body">
 	<img alt="logo" style="background-color: white; margin-top: 0.5;"
-		src="../../resources/images/logo_pm_informatica.png">
+		src="../resources/images/logo_pm_informatica.png">
 	<form>
 		<table>
 			<tr>

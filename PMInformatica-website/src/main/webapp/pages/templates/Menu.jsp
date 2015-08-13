@@ -6,7 +6,7 @@
 			ng-if="!isMobileDevice">
 			<div class="navbar-header">
 				<a href="#/home"> <img class="navbar-brand-logo"
-					src="../resources/images//logo_pm_informatica.png"></a> <a
+					src="../resources/images/logo_pm_informatica.png"></a> <a
 					class="navbar-brand" href="#/servizi">Servizi</a> <a
 					class="navbar-brand" href="#/contatti">Contatti</a> <a
 					class="navbar-brand" href="#/prenotazione">Prenotazione</a> <a

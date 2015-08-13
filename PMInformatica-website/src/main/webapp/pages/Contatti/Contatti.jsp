@@ -6,7 +6,7 @@
 				<div ng-if="isMobileDevice" class="div-table">
 					<div class="div-row-contatti">
 						<img alt="logo" style="background-color: white; margin-top: 1cm;"
-							src="../../resources/images/logo_pm_informatica.png"><br> <label><b>P.M.
+							src="../resources/images/logo_pm_informatica.png"><br> <label><b>P.M.
 								informatica di Pietro Mondia</b> </label><br> <label>Via
 							Verona, 1</label><br> <label>37011 Calmasino di Bardolino
 							(VR)</label><br>
@@ -24,7 +24,7 @@
 					<div class="div-row-contatti">
 						<div class="div-cell-img-contatti">
 							<span><img alt="tel"
-								src="../../resources/images/glyphicons_free/glyphicons/png/glyphicons-442-phone-alt.png"></span>
+								src="../resources/images/glyphicons_free/glyphicons/png/glyphicons-442-phone-alt.png"></span>
 						</div>
 						<div class="div-cell-text-contatti">
 							<span>045 723 6851</span>
@@ -37,7 +37,7 @@
 					<div class="div-row-contatti">
 						<div class="div-cell-img-contatti">
 							<span><img alt="cell"
-								src="../../resources/images/glyphicons_free/glyphicons/png/glyphicons-164-iphone.png"></span>
+								src="../resources/images/glyphicons_free/glyphicons/png/glyphicons-164-iphone.png"></span>
 						</div>
 						<div class="div-cell-text-contatti">
 							<span>349 380 6376</span>
@@ -50,7 +50,7 @@
 					<div class="div-row-contatti">
 						<div class="div-cell-img-contatti">
 							<span><img alt="skype"
-								src="../../resources/images/glyphicons_free/glyphicons/png/glyphicons-203-shopping-cart.png"></span>
+								src="../resources/images/glyphicons_free/glyphicons/png/glyphicons-203-shopping-cart.png"></span>
 						</div>
 						<div class="div-cell-text-contatti">
 							<span><a
@@ -67,7 +67,7 @@
 					<div class="div-row-contatti">
 						<div class="div-cell-img-contatti">
 							<span><a href="mailto:p.m.informatica@pec.it"><img
-									alt="pec" src="../../resources/images/pec-home.gif"> </a></span>
+									alt="pec" src="../resources/images/pec-home.gif"> </a></span>
 						</div>
 						<div class="div-cell-text-contatti">
 							<span><a href="mailto:p.m.informatica@pec.it">p.m.informatica@pec.it</a></span>
@@ -82,7 +82,7 @@
 						<div class="div-cell-img-contatti">
 							<span><a href="mailto:infopminformatica@gmail.com"><img
 									alt="mail"
-									src="../../resources/images/glyphicons_free/glyphicons_social/png/social-40-e-mail.png"></a></span>
+									src="../resources/images/glyphicons_free/glyphicons_social/png/social-40-e-mail.png"></a></span>
 						</div>
 						<div class="div-cell-text-contatti">
 							<span><a href="mailto:infopminformatica@gmail.com">infopminformatica@gmail.com</a>
@@ -98,7 +98,7 @@
 							<span><a
 								href="https://www.facebook.com/pages/PM-Informatica/"
 								target="_blank"> <img alt="fb"
-									src="../../resources/images/glyphicons_free/glyphicons_social/png/social-31-facebook.png"></a></span>
+									src="../resources/images/glyphicons_free/glyphicons_social/png/social-31-facebook.png"></a></span>
 						</div>
 						<div class="div-cell-text-contatti">
 							<span><a
@@ -116,7 +116,7 @@
 							<span><a
 								href="https://plus.google.com/107239948879725074169/about?gl=it&hl=it"
 								target="_blank"> <img alt="fb"
-									src="../../resources/images/glyphicons_free/glyphicons_social/png/social-3-google-plus.png"></a></span>
+									src="../resources/images/glyphicons_free/glyphicons_social/png/social-3-google-plus.png"></a></span>
 						</div>
 						<div class="div-cell-text-contatti">
 							<span><a
@@ -132,7 +132,7 @@
 					<div class="div-row-contatti">
 						<div class="div-cell-img-contatti">
 							<span><img alt="skype"
-								src="../../resources/images/glyphicons_free/glyphicons_social/png/social-39-skype.png"></span>
+								src="../resources/images/glyphicons_free/glyphicons_social/png/social-39-skype.png"></span>
 						</div>
 						<div class="div-cell-text-contatti">
 							<span>monduz77</span>
@@ -145,7 +145,7 @@
 
 			<td ng-if="!isMobileDevice" style="padding-left: 1cm"><img
 				alt="logo" style="background-color: white; margin-top: 1cm;"
-				src="../../resources/images/logo_pm_informatica.png">
+				src="../resources/images/logo_pm_informatica.png">
 				<div>
 					<label><b>P.M. informatica di Pietro Mondia</b> </label><br> <label>Via
 						Verona, 1</label><br> <label>37011 Calmasino di Bardolino
