@@ -18,8 +18,8 @@
 		</div>
 
 		<div ng-if="isMobileDevice">
-			<div class="dropdown">
-				<button style="background-color: rgb(242, 148, 0);" id="close-image"
+			<div class="dropdown" style="background-color: rgb(242, 148, 0)">
+				<button style="background-color: rgb(242, 148, 0); border: none;" id="close-image"
 					data-toggle="dropdown" type="button">
 					<img src="../resources/images/menu_mobile_button.gif">
 				</button>

@@ -49,6 +49,8 @@
 	src="${pageContext.request.contextPath}/pages/Home/HomeController.js"></script>
 <script type="text/javascript"
 	src="${pageContext.request.contextPath}/pages/templates/DeviceController.js"></script>
+<script type="text/javascript"
+	src="${pageContext.request.contextPath}/pages/Contenuti/ContenutiController.js"></script>
 
 <!-- INCLUDO I SERVICE -->
 <script type="text/javascript"
