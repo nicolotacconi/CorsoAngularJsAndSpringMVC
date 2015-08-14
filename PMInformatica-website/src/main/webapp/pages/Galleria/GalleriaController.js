@@ -1,19 +1,16 @@
 angular.module('pmInformaticaWebSiteAngular.controllers')
 
-.controller('GalleriaController', [ '$scope', function($scope) {
+.controller('GalleriaController', [ '$scope', 'galleriaService' ,'growl' , function($scope, galleriaService, growl) {
 
 	$scope.myInterval = 3000;
-	$scope.slides = [ {
-		"imageID" : 1,
-		"title" : "Shop",
-		"path" : "../resources/images/shop.png"
-	}, {
-		"imageID" : 2,
-		"title" : "Jellyfish",
-		"path" : "http://lorempixel.com/400/200/food"
-	}, {
-		"imageID" : 3,
-		"title" : "Lighthouse",
-		"path" : "http://lorempixel.com/400/200/sports"
-	} ];
+	$scope.slides ;
+	
+	$scope.getUltimiLavori = function() {
+		galleriaService.getUltimiLavori().success(function(ultimiLavori) {
+			$scope.slides = ultimiLavori;
+		}).error(function(error) {
+			growl.error("Errore recuperando gli ultimi lavori");
+		});
+	};
+	
 } ]);

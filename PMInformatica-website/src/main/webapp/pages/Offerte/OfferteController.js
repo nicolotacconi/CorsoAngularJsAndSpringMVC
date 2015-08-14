@@ -1,24 +1,15 @@
 angular.module('pmInformaticaWebSiteAngular.controllers')
 
-.controller('OfferteController', [ '$scope', function($scope) {
+.controller('OfferteController', [ '$scope' ,'offerteService', function($scope, offerteService) {
 
-	$scope.offerte = [ {
-		"id" : 1,
-		"titolo" : "Notebook Asus",
-		"immagine" : "../resources/images/shop.png",
-		"descrizione" :"",
-		"prezzo" : "€ 300,00"
-	}, {
-		"id" : 1,
-		"titolo" : "PC Assemblato",
-		"immagine" : "../resources/images/shop.png",
-		"descrizione" :"",
-		"prezzo" : "€ 200,00"
-	}, {
-		"id" : 1,
-		"titolo" : "Impianto Wireless",
-		"immagine" : "../resources/images/shop.png",
-		"descrizione" :"",
-		"prezzo" : "€ 1.500,00"
-	} ];
+	$scope.offerte ;
+	
+	$scope.getOfferte = function() {
+		offerteService.getOfferte().success(function(offerte) {
+			$scope.offerte = offerte;
+		}).error(function(error) {
+			growl.error("Errore recuperando le offerte");
+		});
+	};
+	
 } ]);

@@ -55,6 +55,10 @@
 	src="${pageContext.request.contextPath}/pages/Login/LoginService.js"></script>
 <script type="text/javascript"
 	src="${pageContext.request.contextPath}/pages/Prenotazione/PrenotazioneService.js"></script>
+<script type="text/javascript"
+	src="${pageContext.request.contextPath}/pages/Offerte/OfferteService.js"></script>
+<script type="text/javascript"
+	src="${pageContext.request.contextPath}/pages/Galleria/GalleriaService.js"></script>
 
 <!-- JQUERY -->
 <script

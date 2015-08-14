@@ -74,10 +74,12 @@
 
 				<h3 class="titoloPagina" id="indexServizi">I nostri ultimi
 					lavori</h3>
-				<div ng-controller="GalleriaController" style="width: 280x;">
+				<div ng-controller="GalleriaController" ng-init="getUltimiLavori()"
+					style="width: 280x;">
 					<carousel interval="myInterval"> <slide
 						ng-repeat="slide in slides" active="slide.active"> <img
-						ng-src="{{slide.path}}" style="margin: auto; height: 280px;"></slide></carousel>
+						ng-src="data:image/jpg;base64,{{slide.image}}"
+						style="margin: auto; height: 280px;"></slide></carousel>
 				</div>
 
 			</div>
