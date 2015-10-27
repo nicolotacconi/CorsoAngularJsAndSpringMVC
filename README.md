@@ -75,21 +75,3 @@ Per provare il progetto e' necessario eseguire il jetty di Maven
 
 ### Link
 Esempio con Growl: http://localhost:8080/extension/pages/Growl/Growl.jsp <br>
-
-## EsempioIonicFramework
-Questo progetto contiene alcuni esempi base di Ionic e AngularJs: <br>
-1. Esempio Base di Layout di pagina <br>
-2. Esempio Layout pagina con più tabs<br>
-3. Esempio di pulsanti Base <br>
-4. Esempio di Items List <br>
-5. Esempio di Form <br>
-
-### Configurazioni
-Per provare il progetto e' necessario eseguire il jetty di Maven
-
-### Link
-Esempio layout pagina: http://localhost:8080/ionicAngular/pages/PageLayout/SingleTab.jsp <br>
-Esempio layout pagina con più tabs: http://localhost:8080/ionicAngular/pages/PageLayout/MultiTabs.jsp <br>
-Esempio pulsanti base: http://localhost:8080/ionicAngular/pages/ComponentiBase/PulsantiBase.jsp <br>
-Esempio lista di items: http://localhost:8080/ionicAngular/pages/ComponentiBase/ItemsList.jsp <br>
-Esempio form: http://localhost:8080/ionicAngular/pages/ComponentiBase/Form.jsp <br>
