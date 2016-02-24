@@ -10,6 +10,9 @@ Questo progetto contiene alcune pagine base come per esempio: <br>
 
 ATTENZIONE!!! In questo progetto il codice js e' incorporato nelle pagine jsp
 
+### Framework
+Questo progetto utilizza AngularJs e Spring MVC per lo sviluppo dei servizi REST
+
 ### Configurazioni
 Per provare il progetto e' necessario eseguire il jetty di Maven
 
@@ -32,6 +35,9 @@ Questo progetto contiene alcuni esempi base di angularJs e Spring MVC utilizzand
 
 L'esempio 3 (form di compilazione) contiene anche un esempio di sincronizzazione bidirezionale delle variabili (quando si compila una input text viene modificata subito la variabile)
 
+### Framework
+Questo progetto utilizza AngularJs e Spring MVC per lo sviluppo dei servizi REST
+
 ### Configurazioni
 Per provare il progetto e' necessario eseguire il jetty di Maven
 
@@ -52,6 +58,9 @@ Al suo interno sono presenti i seguenti progetti figli:<br>
 1. myFirstApplication-web --> Contiene il codice sorgente<br>
 2. myFirstApplication-ear --> Genera l'ear per il deploy<br>
 
+### Framework
+Questo progetto utilizza AngularJs e Spring MVC per lo sviluppo dei servizi REST
+
 ### Configurazioni
 Per provare il progetto e' necessario configurare tomcat
 
@@ -59,6 +68,9 @@ Per provare il progetto e' necessario configurare tomcat
 Questo progetto contiene un semplice esempio di sito web, in particolare ha degli esempi utili su:<br>
 1. navigazione tra le pagine con AngularJs<br>
 2. utilizzo di bootstrap<br>
+
+### Framework
+Questo progetto utilizza AngularJs e Spring MVC per lo sviluppo dei servizi REST
 
 ### Configurazioni
 Per provare il progetto e' necessario eseguire il jetty di Maven
@@ -69,6 +81,9 @@ http://localhost:8080/pminformatica/pages/Home/Home.jsp<br>
 ## ExtensionLibraries
 Questo progetto contiene alcuni esempi di librerie di utilità <br>
 1. Esempio utilizzo Growl<br>
+
+### Framework
+Questo progetto utilizza AngularJs e Spring MVC per lo sviluppo dei servizi REST
 
 ### Configurazioni
 Per provare il progetto e' necessario eseguire il jetty di Maven
