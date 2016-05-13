@@ -103,3 +103,4 @@ Per provare il progetto e' necessario eseguire il jetty di Maven
 ### Link
 Esempi: http://localhost:8080/corsoAngular/pages/01_databinding/DataBinding.jsp <br>
 Esempi: http://localhost:8080/corsoAngular/pages/nn_etc/pagina.jsp <br>
+Prova
