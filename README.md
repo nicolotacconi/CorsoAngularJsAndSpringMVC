@@ -101,6 +101,7 @@ Questo progetto utilizza AngularJs e Spring MVC per lo sviluppo dei servizi REST
 Per provare il progetto e' necessario eseguire il jetty di Maven
 
 ### Link
-Esempi: http://localhost:8080/corsoAngular/pages/01_databinding/DataBinding.jsp <br>
+Esempio Controller Spring MVC Base: http://localhost:8080/corsoAngular/cercaLibri?titolo=LibroA <br>
+Esempio di integrazione base tra Angular e Spring MVC: http://localhost:8080/corsoAngular/pages/15_esempioChiamataSpringMvc/EsempioIntegrazioneMvc.jsp<br>
 Esempi: http://localhost:8080/corsoAngular/pages/nn_etc/pagina.jsp <br>
 Prova
