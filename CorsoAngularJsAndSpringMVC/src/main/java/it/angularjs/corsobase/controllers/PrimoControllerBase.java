@@ -1,10 +1,12 @@
 package it.angularjs.corsobase.controllers;
 
+import it.angularjs.corsobase.dao.LibroDao;
 import it.angularjs.corsobase.domain.Libro;
 
 import java.util.ArrayList;
 import java.util.List;
 
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -15,11 +17,14 @@ import org.springframework.web.bind.annotation.ResponseBody;
 @Controller
 public class PrimoControllerBase {
 
+	@Autowired
+	private LibroDao libroDao;
+		
 	@RequestMapping(value = "/cercaLibri")
 	@ResponseBody
 	public List<Libro> cercaLibri(@RequestParam String autore) {
 
-		List<Libro> resultList = cercaLibro(autore);
+		List<Libro> resultList = libroDao.cercaLibro(autore);
 
 		return resultList;
 	}
@@ -28,26 +33,15 @@ public class PrimoControllerBase {
 	@ResponseBody
 	public void aggiungiLibro(@RequestBody Libro libro) {
 
-		libri.add(libro);
+		libroDao.aggiungiLibro(libro);
 	}
 
-	static List<Libro> libri = new ArrayList<Libro>() {
-		{
-			add(new Libro("libro a", "pippo"));
-			add(new Libro("libro b", "caio"));
-			add(new Libro("libro c", "pippo"));
-		}
-	};
+	public LibroDao getLibroDao() {
+		return libroDao;
+	}
 
-	private List<Libro> cercaLibro(String autore) {
-		List<Libro> resultList = new ArrayList<Libro>();
-
-		for (Libro libro : libri) {
-			if (libro.getAutore().contains(autore)) {
-				resultList.add(libro);
-			}
-		}
-		return resultList;
+	public void setLibroDao(LibroDao libroDao) {
+		this.libroDao = libroDao;
 	}
 
 }
