@@ -1,7 +1,8 @@
 
 <!DOCTYPE html>
 <html>
-	<script	src="angular.min.js"></script><!-- <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script> -->
+	<!--<script	src="angular.min.js"></script> --> 
+	<script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
 	<script src="personApp.js"></script>
 	<script src="personController.js"></script>
 <body>
