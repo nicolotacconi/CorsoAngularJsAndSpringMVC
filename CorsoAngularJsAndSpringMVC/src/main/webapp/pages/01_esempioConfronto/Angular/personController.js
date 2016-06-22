@@ -5,8 +5,10 @@
 angular.module('myApp.controllers')
 .controller('personCtrl',['$scope', function($scope) {
 	$scope.persone = [];
-	$scope.firstName = "John";
-	$scope.lastName = "Doe";
+	//$scope.firstName = "John";
+	//$scope.lastName = "Doe";
+	$scope.firstName = "";
+	$scope.lastName = "";
 	$scope.stringaRicerca = "";
 	$scope.filtro = "";
 	$scope.fullNameUpp = function() {

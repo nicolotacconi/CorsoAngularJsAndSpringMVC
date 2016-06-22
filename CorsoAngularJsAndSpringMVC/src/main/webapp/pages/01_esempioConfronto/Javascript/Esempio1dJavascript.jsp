@@ -10,8 +10,8 @@
 	
 	<div >
 
-		First Name: <input type="text" id="firstInput"  name="firstNameInput" value = "Jhon" onkeyup="aggiorna()" ><br>
-		Last Name:  <input type="text" id="lastInput"  name="lastNameInput" value ="Doe" onkeyup="aggiorna()" ><br> <br>
+		First Name: <input type="text" id="firstInput"  name="firstNameInput" placeholder= "Jhon" onkeyup="aggiorna()" ><br>
+		Last Name:  <input type="text" id="lastInput"  name="lastNameInput" placeholder="Doe" onkeyup="aggiorna()" ><br> <br>
 		Full Name: <p id="output"></p>
 
 		<button onclick="aggiungiPersona(fullNameUpp())">Aggiungi</button>

@@ -11,8 +11,8 @@
 
 	<div ng-app="myApp" ng-controller="personCtrl" >
 
-		First Name: <input type="text" ng-model="firstName"><br>
-		Last Name: <input type="text" ng-model="lastName"><br> <br>
+		First Name: <input type="text" ng-model="firstName" placeholder= "Jhon"><br>
+		Last Name: <input type="text" ng-model="lastName" placeholder= "Doe"><br> <br>
 		Full Name: {{fullNameUpp()}}
 
 		<button ng-click="aggiungiPersona();">Aggiungi</button>
