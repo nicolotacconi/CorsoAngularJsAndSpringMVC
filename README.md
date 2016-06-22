@@ -12,4 +12,6 @@ Esempio di risorsa presente sul server esposta attraverso Spring MVC: http://loc
 Esempio di servizio esposto da Controller Spring MVC Base: http://localhost:8080/corsoAngular/cercaLibri?autore=pippo <br>
 Esempio di integrazione base tra Angular e Spring MVC: http://localhost:8080/corsoAngular/pages/15_esempioChiamataSpringMvc/EsempioIntegrazioneMvc.jsp<br>
 Esempi: http://localhost:8080/corsoAngular/pages/nn_etc/pagina.jsp <br>
-Prova
+
+# InserimentoAnagrafica
+Questo progetto contiene la configurazione base da consegnare ai partecipanti del corso per fare l'esercitazione descritta su GoogleDrive.
