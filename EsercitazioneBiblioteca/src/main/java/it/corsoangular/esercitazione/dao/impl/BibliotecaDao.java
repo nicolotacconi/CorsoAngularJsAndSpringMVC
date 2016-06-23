@@ -10,10 +10,10 @@ import org.springframework.jdbc.core.BeanPropertyRowMapper;
 import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.util.StringUtils;
 
-import it.corsoangular.esercitazione.dao.interfacce.ILibreriaDao;
+import it.corsoangular.esercitazione.dao.interfacce.IBibliotecaDao;
 import it.corsoangular.esercitazione.domain.Libro;
 
-public class LibreriaDao implements ILibreriaDao {
+public class BibliotecaDao implements IBibliotecaDao {
 
 	private JdbcTemplate jdbcTemplate;
 
