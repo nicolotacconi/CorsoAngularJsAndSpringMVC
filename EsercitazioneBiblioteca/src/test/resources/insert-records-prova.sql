@@ -1,0 +1,3 @@
+SET DATABASE SQL SYNTAX ORA TRUE;
+
+INSERT INTO BIBLIOTECA VALUES (1,'La divina commedia','Dante Alighieri','01011930');
