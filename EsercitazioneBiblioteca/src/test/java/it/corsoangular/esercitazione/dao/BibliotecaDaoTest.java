@@ -171,7 +171,7 @@ public class BibliotecaDaoTest {
 		Assert.assertEquals(1, risultati.size());
 		Assert.assertEquals("La divina commedia", risultati.get(0).getTitolo());
 		Assert.assertEquals("Dante Alighieri", risultati.get(0).getAutore());
-		Assert.assertEquals("01011930", risultati.get(0).getDataPubblicazione());
+		Assert.assertEquals("01011300", risultati.get(0).getDataPubblicazione());
 		Assert.assertEquals(1, risultati.get(0).getIdentificativo().intValue());
 
 	}
@@ -216,7 +216,7 @@ public class BibliotecaDaoTest {
 		Assert.assertEquals(1, risultati.size());
 		Assert.assertEquals("La divina commedia", risultati.get(0).getTitolo());
 		Assert.assertEquals("Dante Alighieri", risultati.get(0).getAutore());
-		Assert.assertEquals("01011930", risultati.get(0).getDataPubblicazione());
+		Assert.assertEquals("01011300", risultati.get(0).getDataPubblicazione());
 		Assert.assertEquals(1, risultati.get(0).getIdentificativo().intValue());
 
 	}
@@ -228,7 +228,17 @@ public class BibliotecaDaoTest {
 	public void test9() {
 		List<Libro> risultati = bibliotecaDao.cercaLibro(null, null);
 
-		Assert.assertEquals(1, risultati.size());
+		Assert.assertEquals(2, risultati.size());
+
+		Assert.assertEquals("La divina commedia", risultati.get(0).getTitolo());
+		Assert.assertEquals("Dante Alighieri", risultati.get(0).getAutore());
+		Assert.assertEquals("01011300", risultati.get(0).getDataPubblicazione());
+		Assert.assertEquals(1, risultati.get(0).getIdentificativo().intValue());
+
+		Assert.assertEquals("I Promessi Sposi", risultati.get(1).getTitolo());
+		Assert.assertEquals("Alessandro Manzoni", risultati.get(1).getAutore());
+		Assert.assertEquals("01011827", risultati.get(1).getDataPubblicazione());
+		Assert.assertEquals(2, risultati.get(1).getIdentificativo().intValue());
 	}
 
 	@Test
@@ -238,7 +248,17 @@ public class BibliotecaDaoTest {
 	public void test10() {
 		List<Libro> risultati = bibliotecaDao.cercaLibro("", null);
 
-		Assert.assertEquals(1, risultati.size());
+		Assert.assertEquals(2, risultati.size());
+
+		Assert.assertEquals("La divina commedia", risultati.get(0).getTitolo());
+		Assert.assertEquals("Dante Alighieri", risultati.get(0).getAutore());
+		Assert.assertEquals("01011300", risultati.get(0).getDataPubblicazione());
+		Assert.assertEquals(1, risultati.get(0).getIdentificativo().intValue());
+
+		Assert.assertEquals("I Promessi Sposi", risultati.get(1).getTitolo());
+		Assert.assertEquals("Alessandro Manzoni", risultati.get(1).getAutore());
+		Assert.assertEquals("01011827", risultati.get(1).getDataPubblicazione());
+		Assert.assertEquals(2, risultati.get(1).getIdentificativo().intValue());
 	}
 
 	@Test
@@ -248,7 +268,17 @@ public class BibliotecaDaoTest {
 	public void test11() {
 		List<Libro> risultati = bibliotecaDao.cercaLibro("     ", null);
 
-		Assert.assertEquals(1, risultati.size());
+		Assert.assertEquals(2, risultati.size());
+
+		Assert.assertEquals("La divina commedia", risultati.get(0).getTitolo());
+		Assert.assertEquals("Dante Alighieri", risultati.get(0).getAutore());
+		Assert.assertEquals("01011300", risultati.get(0).getDataPubblicazione());
+		Assert.assertEquals(1, risultati.get(0).getIdentificativo().intValue());
+
+		Assert.assertEquals("I Promessi Sposi", risultati.get(1).getTitolo());
+		Assert.assertEquals("Alessandro Manzoni", risultati.get(1).getAutore());
+		Assert.assertEquals("01011827", risultati.get(1).getDataPubblicazione());
+		Assert.assertEquals(2, risultati.get(1).getIdentificativo().intValue());
 	}
 
 	@Test
@@ -258,7 +288,17 @@ public class BibliotecaDaoTest {
 	public void test12() {
 		List<Libro> risultati = bibliotecaDao.cercaLibro(null, "");
 
-		Assert.assertEquals(1, risultati.size());
+		Assert.assertEquals(2, risultati.size());
+
+		Assert.assertEquals("La divina commedia", risultati.get(0).getTitolo());
+		Assert.assertEquals("Dante Alighieri", risultati.get(0).getAutore());
+		Assert.assertEquals("01011300", risultati.get(0).getDataPubblicazione());
+		Assert.assertEquals(1, risultati.get(0).getIdentificativo().intValue());
+
+		Assert.assertEquals("I Promessi Sposi", risultati.get(1).getTitolo());
+		Assert.assertEquals("Alessandro Manzoni", risultati.get(1).getAutore());
+		Assert.assertEquals("01011827", risultati.get(1).getDataPubblicazione());
+		Assert.assertEquals(2, risultati.get(1).getIdentificativo().intValue());
 	}
 
 	@Test
@@ -268,7 +308,17 @@ public class BibliotecaDaoTest {
 	public void test13() {
 		List<Libro> risultati = bibliotecaDao.cercaLibro(null, "    ");
 
-		Assert.assertEquals(1, risultati.size());
+		Assert.assertEquals(2, risultati.size());
+
+		Assert.assertEquals("La divina commedia", risultati.get(0).getTitolo());
+		Assert.assertEquals("Dante Alighieri", risultati.get(0).getAutore());
+		Assert.assertEquals("01011300", risultati.get(0).getDataPubblicazione());
+		Assert.assertEquals(1, risultati.get(0).getIdentificativo().intValue());
+
+		Assert.assertEquals("I Promessi Sposi", risultati.get(1).getTitolo());
+		Assert.assertEquals("Alessandro Manzoni", risultati.get(1).getAutore());
+		Assert.assertEquals("01011827", risultati.get(1).getDataPubblicazione());
+		Assert.assertEquals(2, risultati.get(1).getIdentificativo().intValue());
 	}
 
 	@Test
@@ -314,7 +364,7 @@ public class BibliotecaDaoTest {
 		Assert.assertEquals(1, risultati.size());
 		Assert.assertEquals("La divina commedia", risultati.get(0).getTitolo());
 		Assert.assertEquals("Dante Alighieri", risultati.get(0).getAutore());
-		Assert.assertEquals("01011930", risultati.get(0).getDataPubblicazione());
+		Assert.assertEquals("01011300", risultati.get(0).getDataPubblicazione());
 		Assert.assertEquals(1, risultati.get(0).getIdentificativo().intValue());
 
 	}

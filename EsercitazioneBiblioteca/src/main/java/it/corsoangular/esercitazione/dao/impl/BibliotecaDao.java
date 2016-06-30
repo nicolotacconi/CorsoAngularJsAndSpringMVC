@@ -30,11 +30,15 @@ public class BibliotecaDao extends JdbcDaoSupport implements IBibliotecaDao {
 
 	public List<Libro> cercaLibro(String autore, String titolo) {
 
+		// se entrambi i parametri sono blank eseguo la query senza where
+		// condition
 		if (StringUtils.isBlank(titolo) && StringUtils.isBlank(autore)) {
 			return getJdbcTemplate().query(QUERY_CERCA_LIBRO_ALL, new Object[] {},
 					new BeanPropertyRowMapper<Libro>(Libro.class));
 
 		} else {
+			// eseguo la query con le where condition in base a quale parametro
+			// e' stato passato in input
 			if (StringUtils.isNotBlank(titolo) && StringUtils.isNotBlank(autore)) {
 				return getJdbcTemplate().query(QUERY_CERCA_LIBRO_TITOLO_AUTORE, new Object[] { titolo, autore },
 						new BeanPropertyRowMapper<Libro>(Libro.class));

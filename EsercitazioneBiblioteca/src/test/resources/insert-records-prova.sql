@@ -1,3 +1,4 @@
 SET DATABASE SQL SYNTAX ORA TRUE;
 
-INSERT INTO BIBLIOTECA VALUES (1,'La divina commedia','Dante Alighieri','01011930');
+INSERT INTO BIBLIOTECA VALUES (1,'La divina commedia','Dante Alighieri','01011300');
+INSERT INTO BIBLIOTECA VALUES (2,'I Promessi Sposi','Alessandro Manzoni','01011827');
