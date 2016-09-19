@@ -5,7 +5,7 @@
 
 
 <!-- INCLUDO LE LIBRERIE BASE DI ANGULAR -->
-<script src="${pageContext.request.contextPath}/webjars/angularjs/1.5.5/angular.min.js"></script>
+<script src="${pageContext.request.contextPath}/webjars/angularjs/1.5.8/angular.min.js"></script>
 
 
 <!-- INCLUDO I SERVIZI E I CONTROLLER JAVASCRIPT -->
