@@ -24,7 +24,7 @@
 				<tr>
 					<td>
 						<input type="text" size="30" maxlength="1000" ng-model= "stringaRicerca" />
-						<input type="button" value="Cerca" ng-click="impostaFiltro()"; /> 
+						<input type="button" value="Cerca" ng-click="impostaFiltro()" /> 
 					</td>
 				</tr>
 			</tbody>

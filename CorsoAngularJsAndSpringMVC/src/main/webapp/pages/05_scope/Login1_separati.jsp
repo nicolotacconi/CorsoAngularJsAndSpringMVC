@@ -10,19 +10,19 @@
 
 	<!-- I DUE CONTROLLER HANNO SCOPE PROPRIO. SONO DUE ISTANZE DIVERSE -->
 	<div ng-controller="Login1Ctrl as ctrl">
-		<h2>{{ctrl.title}}</h2>
-		<p>{{ctrl.name}}</p>
-		<p>altro: {{ctrl.altro}}</p>
+		<h2>{{title}}</h2>
+		<p>{{name}}</p>
+		<p>altro: {{altro}}</p>
 	</div>
 
 	<br>
 
 	<!-- HO IL CONTROLLER DI WELCOME -->
 	<div ng-controller="Welcome1Ctrl as ctrl">
-		<h2>{{ctrl.title}}</h2>
-		<p>{{ctrl.location}}</p>
-		<p>{{ctrl.name}}</p>
-		<p>altro: {{ctrl.altro}}</p>
+		<h2>{{title}}</h2>
+		<p>{{location}}</p>
+		<p>{{name}}</p>
+		<p>altro: {{altro}}</p>
 	</div>
 
 </body>
