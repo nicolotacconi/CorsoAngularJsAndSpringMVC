@@ -44,7 +44,8 @@ myForm.email.$dirty && myForm.email.$invalid">
 		  <br>
 		  proprietà form:
 		  <span ng-show="myForm.$submitted ">form submitted</span><br>
-		 
+		 <span ng-show="myForm.$valid">form valida (valid)</span> <br>
+		 <span ng-show="myForm.$invalid">form non valida (invalid)</span> <br>
 		 <span ng-show="myForm.$pristine">form non modificata dall'utente (pristine)</span> <br>
 		 <span ng-show="myForm.$dirty">form modificata dall'utente (dirty)</span> <br>
 		</span>
