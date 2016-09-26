@@ -35,6 +35,15 @@
 				ng-disabled="myForm.user.$dirty && myForm.user.$invalid ||  
 myForm.email.$dirty && myForm.email.$invalid">
 		</p>
+		
+		<br>
+		 proprietà form:
+		  <span ng-show="myForm.$submitted ">form submitted</span><br>
+		 <span ng-show="myForm.$valid">form valida (valid)</span> <br>
+		 <span ng-show="myForm.$invalid">form non valida (invalid)</span> <br>
+		 <span ng-show="myForm.$pristine">form non modificata dall'utente (pristine)</span> <br>
+		 <span ng-show="myForm.$dirty">form modificata dall'utente (dirty)</span> <br>
+	
 		 proprietà campo Username:
 		 <span ng-show="myForm.user.$touched">campo Username perso focus (touched)</span><br>
 		 <span ng-show="myForm.user.$untouched">campo Username mai perso focus da questo campo (untouched)</span><br>
@@ -42,14 +51,12 @@ myForm.email.$dirty && myForm.email.$invalid">
 		 <span ng-show="myForm.user.$dirty">campo Username modificato dall'utente (dirty)</span> <br>
 		  
 		  <br>
-		  proprietà form:
-		  <span ng-show="myForm.$submitted ">form submitted</span><br>
-		 <span ng-show="myForm.$valid">form valida (valid)</span> <br>
-		 <span ng-show="myForm.$invalid">form non valida (invalid)</span> <br>
-		 <span ng-show="myForm.$pristine">form non modificata dall'utente (pristine)</span> <br>
-		 <span ng-show="myForm.$dirty">form modificata dall'utente (dirty)</span> <br>
-		</span>
-
+		 <div style="border: 1px solid red;	margin: 3px; padding : 5px"><h3>json messaggi Angular:</h3>
+			<pre>myForm.user.$error = {{ myForm.user.$error | json }}</pre>
+	 		 <pre>myForm.user.$invalid = {{ myForm.user.$invalid | json }}</pre>
+			<pre>myForm.email.$error = {{ myForm.email.$error | json }}</pre>
+		  	<pre>myForm.email.$invalid = {{ myForm.email.$invalid | json }}</pre>
+	  	</div>
 	</form>
 
 </body>
