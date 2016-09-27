@@ -10,7 +10,9 @@
 
 	<h2>Submit</h2>
 
-	<form ng-app="myApp" ng-controller="SubmitCtrl" name="myForm">
+	<!-- <form ng-app="myApp" ng-controller="SubmitCtrl" name="myForm">  -->
+	<form ng-app="myApp" ng-controller="SubmitCtrl" name="myForm" ng-submit="iscrizione()">  
+	
 
 		<h2>{{title}}</h2>
 
@@ -32,7 +34,11 @@
 		</p>
 
 		<p>
-			<input type="submit" ng-click="iscrizione()"
+			<!-- <input type="submit" ng-click="iscrizione()"
+				ng-disabled="myForm.user.$dirty && myForm.user.$invalid ||  
+myForm.email.$dirty && myForm.email.$invalid">
+ -->
+  <input type="submit" 
 				ng-disabled="myForm.user.$dirty && myForm.user.$invalid ||  
 myForm.email.$dirty && myForm.email.$invalid">
 		</p>
