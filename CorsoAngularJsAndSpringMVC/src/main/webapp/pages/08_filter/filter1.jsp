@@ -4,6 +4,7 @@
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
 <jsp:include page="../template/header.jsp" />
 <script type="text/javascript" src="Filter1.js"></script>
+<script src="${pageContext.request.contextPath}/webjars/angularjs/1.5.8/i18n/angular-locale_it-it.js"></script>
 <title>Filtri e Formatter</title>
 <style>
 table, th, td {
