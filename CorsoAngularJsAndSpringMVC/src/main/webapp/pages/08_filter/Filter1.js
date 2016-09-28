@@ -7,6 +7,7 @@ angular.module('corsoBaseAngular.controllers')
 .controller('Filter1Ctrl',['$scope', function($scope){
     $scope.title = 'Info Personale';
     $scope.varOrdine = 'name';
+    $scope.varStringaRicerca = '';
     $scope.varRuolo = '';
    
     $scope.users = [
@@ -18,6 +19,7 @@ angular.module('corsoBaseAngular.controllers')
                   {'name': 'Vanessa', 'city': 'Venezia', 'age': 23, role: 'developer', salary: 1200},
                   {'name': 'Fabrizio', 'city': 'Verona', 'age': 18, role: 'developer', salary: 1100.50},
                 ];
+    $scope.ruoli = [ '', 'admin', 'guest','developer', 'passacarte'];
 }])
   
 

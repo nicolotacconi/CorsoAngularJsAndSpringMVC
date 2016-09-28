@@ -36,7 +36,13 @@ table tr:nth-child(even) {
 		</form>
 		<p>
 			<h4>Digita stringa da ricercare in tabella:</h4>
-			<input type="text" ng-model="varRuolo">
+			<input type="text" ng-model="varStringaRicerca">
+			
+			<h4>Selezione un ruolo da filtrare in tabella:</h4>
+			<select ng-model="varRuolo" ng-options="item for item in ruoli">
+					</select>
+					
+			<p>selezionato: {{varRuolo}}</p>
 		</p>
 		<br />
 		<table>
@@ -47,7 +53,7 @@ table tr:nth-child(even) {
 				<th>Ruolo</th>
 				<th>Salario</th>
 			</tr>
-			<tr ng-repeat="x in users | filter : varRuolo | orderBy: varOrdine">
+			<tr ng-repeat="x in users | filter : { role: varRuolo  }| filter : varStringaRicerca | orderBy: varOrdine">
 				<td>{{ x.name }}</td>
 				<td>{{ x.city}}</td>
 				<td>{{ x.age}}</td>
