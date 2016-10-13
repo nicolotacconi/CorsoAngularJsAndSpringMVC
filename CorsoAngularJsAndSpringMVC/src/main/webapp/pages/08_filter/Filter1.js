@@ -1,9 +1,6 @@
 
 angular.module('corsoBaseAngular.controllers')
 
-
-
-// HO DUE CONTROLLER COMPLETAMENTE SLEGATI, CHE NON POSSONO COMUNICARE SE NON INIETTANDO COSTANTI O VALUE
 .controller('Filter1Ctrl',['$scope', function($scope){
     $scope.title = 'Info Personale';
     $scope.varOrdine = 'name';

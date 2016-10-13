@@ -1,9 +1,6 @@
 
 angular.module('corsoBaseAngular.controllers')
 
-
-
-//HO DUE CONTROLLER COMPLETAMENTE SLEGATI, CHE NON POSSONO COMUNICARE SE NON INIETTANDO COSTANTI O VALUE
 .controller('SubmitCtrl',['$scope', function($scope){
 	$scope.title = 'Iscriviti';
 	$scope.iscritto = false;
