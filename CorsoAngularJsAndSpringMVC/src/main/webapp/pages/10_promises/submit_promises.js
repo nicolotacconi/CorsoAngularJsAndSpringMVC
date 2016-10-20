@@ -54,7 +54,7 @@ angular.module('corsoBaseAngular.controllers')
 						deferred.reject('Mr ' + name + ' is not allowed.');
 						$scope.iscritto = false;
 					}
-				}, 1500);
+				}, 1500);  // <- la mia funzione ci impiega un po' per essere completata
 		return deferred.promise;  //crea e restituisce l'oggetto promise legato alla nostra deferred
 	};
 }])

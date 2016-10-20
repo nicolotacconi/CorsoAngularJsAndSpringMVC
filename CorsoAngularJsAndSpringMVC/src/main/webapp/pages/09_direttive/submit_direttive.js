@@ -24,7 +24,7 @@ angular.module('corsoBaseAngular.controllers')
     return {
         link: function ($scope, element, attrs) {
             element.bind('click', function () {
-                element.html('You clicked me!'); //sostrittuisce il contenuto del tag
+                element.html('You clicked me!'); //sostituisce il contenuto del tag
             });
             element.bind('mouseenter', function () {
                 element.css('background-color', 'yellow');
@@ -42,13 +42,13 @@ angular.module('corsoBaseAngular.controllers')
     replace: true,
     template: '<p style="background-color:{{color}}">Hello World</p>',  //il contenuto del tag viene perso e sostituito da questo dichiarato
     link: function(scope, elem, attrs) {
-      elem.bind('click', function() {
+      elem.bind('click', function() { // funzione associata all'evento per resettare il colore a bianco
         elem.css('background-color', 'white');
         scope.$apply(function() {
           scope.color = "white";
         });
       });
-      elem.bind('mouseover', function() {
+      elem.bind('mouseover', function() { // funzione associata per cambiare cursore come se si passasse su un pulsante
         elem.css('cursor', 'pointer');
       });
     }
