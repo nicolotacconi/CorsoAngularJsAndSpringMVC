@@ -15,7 +15,7 @@
 <body ng-app="corsoBaseAngular">
 	<br>
 
-	<div class="ng-view"></div>
+	<div ng-view></div>
 
 </body>
 </html>

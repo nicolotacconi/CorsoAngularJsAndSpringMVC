@@ -30,7 +30,6 @@ public class PrimoControllerBase {
 	}
 
 	@RequestMapping(value = "/aggiungiLibro", method = RequestMethod.POST)
-	@ResponseBody
 	public void aggiungiLibro(@RequestBody Libro libro) {
 
 		libroDao.aggiungiLibro(libro);
